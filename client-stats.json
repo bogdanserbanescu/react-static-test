@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "b9d658463a8cf519f0b5",
-  "time": 6648,
+  "hash": "e1f01bce0ec892651a80",
+  "time": 6800,
   "publicPath": "https://bogdanserbanescu.github.io/react-static-test/",
   "assetsByChunkName": {
     "src/containers/Home": [
@@ -19,27 +19,27 @@
       "templates/src/containers/Blog.1da56801.js.map"
     ],
     "src/containers/About": [
-      "templates/src/containers/About.1c3856d0.js",
-      "templates/src/containers/About.1c3856d0.js.map"
+      "templates/src/containers/About.1c10cbdc.js",
+      "templates/src/containers/About.1c10cbdc.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.a6f0c451.js",
       "templates/src/containers/404.a6f0c451.js.map"
     ],
     "main": [
-      "main.2ff00981.js",
-      "styles.b9d65846.css",
-      "main.2ff00981.js.map",
-      "styles.b9d65846.css.map"
+      "main.b44bcf51.js",
+      "styles.e1f01bce.css",
+      "main.b44bcf51.js.map",
+      "styles.e1f01bce.css.map"
     ],
     "bootstrap": [
-      "bootstrap.d54406ed.js",
-      "bootstrap.d54406ed.js.map"
+      "bootstrap.a27ef780.js",
+      "bootstrap.a27ef780.js.map"
     ]
   },
   "assets": [
     {
-      "name": "styles.b9d65846.css",
+      "name": "styles.e1f01bce.css",
       "size": 383,
       "chunks": [
         5
@@ -79,8 +79,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/About.1c3856d0.js",
-      "size": 455,
+      "name": "templates/src/containers/About.1c10cbdc.js",
+      "size": 1313,
       "chunks": [
         3
       ],
@@ -101,7 +101,7 @@
       "emitted": true
     },
     {
-      "name": "main.2ff00981.js",
+      "name": "main.b44bcf51.js",
       "size": 274868,
       "chunks": [
         5
@@ -113,7 +113,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.d54406ed.js",
+      "name": "bootstrap.a27ef780.js",
       "size": 1669,
       "chunks": [
         6
@@ -168,8 +168,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/About.1c3856d0.js.map",
-      "size": 1811,
+      "name": "templates/src/containers/About.1c10cbdc.js.map",
+      "size": 4142,
       "chunks": [
         3
       ],
@@ -190,8 +190,8 @@
       "emitted": true
     },
     {
-      "name": "main.2ff00981.js.map",
-      "size": 1459737,
+      "name": "main.b44bcf51.js.map",
+      "size": 1459801,
       "chunks": [
         5
       ],
@@ -201,7 +201,7 @@
       "emitted": true
     },
     {
-      "name": "styles.b9d65846.css.map",
+      "name": "styles.e1f01bce.css.map",
       "size": 96,
       "chunks": [
         5
@@ -212,7 +212,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.d54406ed.js.map",
+      "name": "bootstrap.a27ef780.js.map",
       "size": 14791,
       "chunks": [
         6
@@ -231,12 +231,12 @@
         5
       ],
       "assets": [
-        "bootstrap.d54406ed.js",
-        "bootstrap.d54406ed.js.map",
-        "main.2ff00981.js",
-        "styles.b9d65846.css",
-        "main.2ff00981.js.map",
-        "styles.b9d65846.css.map"
+        "bootstrap.a27ef780.js",
+        "bootstrap.a27ef780.js.map",
+        "main.b44bcf51.js",
+        "styles.e1f01bce.css",
+        "main.b44bcf51.js.map",
+        "styles.e1f01bce.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -528,15 +528,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 615,
+      "size": 1697,
       "names": [
         "src/containers/About"
       ],
       "files": [
-        "templates/src/containers/About.1c3856d0.js",
-        "templates/src/containers/About.1c3856d0.js.map"
+        "templates/src/containers/About.1c10cbdc.js",
+        "templates/src/containers/About.1c10cbdc.js.map"
       ],
-      "hash": "1c3856d0df4d2a97bdb2",
+      "hash": "1c10cbdc91b5034c3095",
       "parents": [
         5
       ],
@@ -547,7 +547,7 @@
           "name": "./src/containers/About.js",
           "index": 126,
           "index2": 123,
-          "size": 615,
+          "size": 1697,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -586,7 +586,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = function () {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h1',\n      null,\n      'This is what we\\'re all about.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'React, static sites, performance, speed. It\\'s the stuff that makes us tick.'\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHelmet = require('react-helmet');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function () {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _reactHelmet.Helmet,\n      null,\n      _react2.default.createElement('meta', { property: 'fb:app_id', content: '277341966096239' }),\n      _react2.default.createElement('html', { prefix: 'og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# game: http://ogp.me/ns/game#' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'game.achievement' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: 'Free Spins!' }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'I just won Free Spins! Come join the adventure in LuckyLand Slots, where you can win real cash prizes!' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: 'https://play.luckylandslots.com/loader/facebook/assets/freespins.png' }),\n      _react2.default.createElement('meta', { property: 'og:image:width', content: '480' }),\n      _react2.default.createElement('meta', { property: 'og:image:height', content: '248' })\n    ),\n    _react2.default.createElement(\n      'h1',\n      null,\n      'This is what we\\'re all about.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'React, static sites, performance, speed. It\\'s the stuff that makes us tick.'\n    )\n  );\n};"
         }
       ],
       "filteredModules": 0,
@@ -693,12 +693,12 @@
         "main"
       ],
       "files": [
-        "main.2ff00981.js",
-        "styles.b9d65846.css",
-        "main.2ff00981.js.map",
-        "styles.b9d65846.css.map"
+        "main.b44bcf51.js",
+        "styles.e1f01bce.css",
+        "main.b44bcf51.js.map",
+        "styles.e1f01bce.css.map"
       ],
-      "hash": "2ff00981262418afb6f2",
+      "hash": "b44bcf51d3a935d443e8",
       "parents": [
         6
       ],
@@ -744,7 +744,16 @@
               "loc": "7:13-29"
             },
             {
-              "moduleId": 26,
+              "moduleId": 22,
+              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+              "module": "./node_modules/react-helmet/lib/Helmet.js",
+              "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
+              "type": "cjs require",
+              "userRequest": "react",
+              "loc": "8:13-29"
+            },
+            {
+              "moduleId": 27,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
               "module": "./node_modules/react-router-dom/es/Link.js",
               "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -753,22 +762,13 @@
               "loc": "11:0-26"
             },
             {
-              "moduleId": 28,
+              "moduleId": 29,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
               "module": "./node_modules/react-router/es/Route.js",
               "moduleName": "./node_modules/react-router/es/Route.js",
               "type": "harmony import",
               "userRequest": "react",
               "loc": "11:0-26"
-            },
-            {
-              "moduleId": 31,
-              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-              "module": "./node_modules/react-helmet/lib/Helmet.js",
-              "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
-              "type": "cjs require",
-              "userRequest": "react",
-              "loc": "8:13-29"
             },
             {
               "moduleId": 39,
@@ -1133,7 +1133,16 @@
               "loc": "12:0-35"
             },
             {
-              "moduleId": 26,
+              "moduleId": 22,
+              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+              "module": "./node_modules/react-helmet/lib/Helmet.js",
+              "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
+              "type": "cjs require",
+              "userRequest": "prop-types",
+              "loc": "12:17-38"
+            },
+            {
+              "moduleId": 27,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
               "module": "./node_modules/react-router-dom/es/Link.js",
               "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -1142,22 +1151,13 @@
               "loc": "12:0-35"
             },
             {
-              "moduleId": 28,
+              "moduleId": 29,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
               "module": "./node_modules/react-router/es/Route.js",
               "moduleName": "./node_modules/react-router/es/Route.js",
               "type": "harmony import",
               "userRequest": "prop-types",
               "loc": "12:0-35"
-            },
-            {
-              "moduleId": 31,
-              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-              "module": "./node_modules/react-helmet/lib/Helmet.js",
-              "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
-              "type": "cjs require",
-              "userRequest": "prop-types",
-              "loc": "12:17-38"
             },
             {
               "moduleId": 42,
@@ -1471,9 +1471,9 @@
             5
           ],
           "assets": [],
-          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
-          "issuerId": 56,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\HashRouter.js",
+          "issuerId": 60,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1488,7 +1488,7 @@
               "loc": "9:0-30"
             },
             {
-              "moduleId": 28,
+              "moduleId": 29,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
               "module": "./node_modules/react-router/es/Route.js",
               "moduleName": "./node_modules/react-router/es/Route.js",
@@ -1875,7 +1875,7 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
-          "issuerId": 26,
+          "issuerId": 27,
           "issuerName": "./node_modules/react-router-dom/es/Link.js",
           "failed": false,
           "errors": 0,
@@ -1891,7 +1891,7 @@
               "loc": "10:0-34"
             },
             {
-              "moduleId": 26,
+              "moduleId": 27,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
               "module": "./node_modules/react-router-dom/es/Link.js",
               "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -1900,7 +1900,7 @@
               "loc": "13:0-34"
             },
             {
-              "moduleId": 28,
+              "moduleId": 29,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
               "module": "./node_modules/react-router/es/Route.js",
               "moduleName": "./node_modules/react-router/es/Route.js",
@@ -2060,15 +2060,15 @@
             5
           ],
           "assets": [],
-          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
-          "issuerId": 56,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\HashRouter.js",
+          "issuerId": 60,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 26,
+              "moduleId": 27,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
               "module": "./node_modules/react-router-dom/es/Link.js",
               "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -2555,7 +2555,7 @@
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 28,
+              "moduleId": 29,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
               "module": "./node_modules/react-router/es/Route.js",
               "moduleName": "./node_modules/react-router/es/Route.js",
@@ -2892,6 +2892,62 @@
         },
         {
           "id": 22,
+          "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+          "name": "./node_modules/react-helmet/lib/Helmet.js",
+          "index": 51,
+          "index2": 54,
+          "size": 13995,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            5
+          ],
+          "assets": [],
+          "issuer": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/react-static/lib/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 21,
+              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
+              "module": "./node_modules/react-static/lib/index.js",
+              "moduleName": "./node_modules/react-static/lib/index.js",
+              "type": "cjs require",
+              "userRequest": "react-helmet",
+              "loc": "41:19-42"
+            },
+            {
+              "moduleId": 45,
+              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!E:\\git\\react-static-test\\src\\containers\\About.js",
+              "module": "./src/containers/About.js",
+              "moduleName": "./src/containers/About.js",
+              "type": "cjs require",
+              "userRequest": "react-helmet",
+              "loc": "11:19-42"
+            },
+            {
+              "moduleId": 119,
+              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\client\\components\\Redirect.js",
+              "module": "./node_modules/react-static/lib/client/components/Redirect.js",
+              "moduleName": "./node_modules/react-static/lib/client/components/Redirect.js",
+              "type": "cjs require",
+              "userRequest": "react-helmet",
+              "loc": "19:19-42"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3,
+          "source": "exports.__esModule = true;\nexports.Helmet = undefined;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactSideEffect = require(\"react-side-effect\");\n\nvar _reactSideEffect2 = _interopRequireDefault(_reactSideEffect);\n\nvar _reactFastCompare = require(\"react-fast-compare\");\n\nvar _reactFastCompare2 = _interopRequireDefault(_reactFastCompare);\n\nvar _HelmetUtils = require(\"./HelmetUtils.js\");\n\nvar _HelmetConstants = require(\"./HelmetConstants.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Helmet = function Helmet(Component) {\n    var _class, _temp;\n\n    return _temp = _class = function (_React$Component) {\n        _inherits(HelmetWrapper, _React$Component);\n\n        function HelmetWrapper() {\n            _classCallCheck(this, HelmetWrapper);\n\n            return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n        }\n\n        HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {\n            return !(0, _reactFastCompare2.default)(this.props, nextProps);\n        };\n\n        HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {\n            if (!nestedChildren) {\n                return null;\n            }\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.SCRIPT:\n                case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    return {\n                        innerHTML: nestedChildren\n                    };\n\n                case _HelmetConstants.TAG_NAMES.STYLE:\n                    return {\n                        cssText: nestedChildren\n                    };\n            }\n\n            throw new Error(\"<\" + child.type + \" /> elements are self-closing and can not contain children. Refer to our API for more information.\");\n        };\n\n        HelmetWrapper.prototype.flattenArrayTypeChildren = function flattenArrayTypeChildren(_ref) {\n            var _extends2;\n\n            var child = _ref.child,\n                arrayTypeChildren = _ref.arrayTypeChildren,\n                newChildProps = _ref.newChildProps,\n                nestedChildren = _ref.nestedChildren;\n\n            return _extends({}, arrayTypeChildren, (_extends2 = {}, _extends2[child.type] = [].concat(arrayTypeChildren[child.type] || [], [_extends({}, newChildProps, this.mapNestedChildrenToProps(child, nestedChildren))]), _extends2));\n        };\n\n        HelmetWrapper.prototype.mapObjectTypeChildren = function mapObjectTypeChildren(_ref2) {\n            var _extends3, _extends4;\n\n            var child = _ref2.child,\n                newProps = _ref2.newProps,\n                newChildProps = _ref2.newChildProps,\n                nestedChildren = _ref2.nestedChildren;\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.TITLE:\n                    return _extends({}, newProps, (_extends3 = {}, _extends3[child.type] = nestedChildren, _extends3.titleAttributes = _extends({}, newChildProps), _extends3));\n\n                case _HelmetConstants.TAG_NAMES.BODY:\n                    return _extends({}, newProps, {\n                        bodyAttributes: _extends({}, newChildProps)\n                    });\n\n                case _HelmetConstants.TAG_NAMES.HTML:\n                    return _extends({}, newProps, {\n                        htmlAttributes: _extends({}, newChildProps)\n                    });\n            }\n\n            return _extends({}, newProps, (_extends4 = {}, _extends4[child.type] = _extends({}, newChildProps), _extends4));\n        };\n\n        HelmetWrapper.prototype.mapArrayTypeChildrenToProps = function mapArrayTypeChildrenToProps(arrayTypeChildren, newProps) {\n            var newFlattenedProps = _extends({}, newProps);\n\n            Object.keys(arrayTypeChildren).forEach(function (arrayChildName) {\n                var _extends5;\n\n                newFlattenedProps = _extends({}, newFlattenedProps, (_extends5 = {}, _extends5[arrayChildName] = arrayTypeChildren[arrayChildName], _extends5));\n            });\n\n            return newFlattenedProps;\n        };\n\n        HelmetWrapper.prototype.warnOnInvalidChildren = function warnOnInvalidChildren(child, nestedChildren) {\n            if (process.env.NODE_ENV !== \"production\") {\n                if (!_HelmetConstants.VALID_TAG_NAMES.some(function (name) {\n                    return child.type === name;\n                })) {\n                    if (typeof child.type === \"function\") {\n                        return (0, _HelmetUtils.warn)(\"You may be attempting to nest <Helmet> components within each other, which is not allowed. Refer to our API for more information.\");\n                    }\n\n                    return (0, _HelmetUtils.warn)(\"Only elements types \" + _HelmetConstants.VALID_TAG_NAMES.join(\", \") + \" are allowed. Helmet does not support rendering <\" + child.type + \"> elements. Refer to our API for more information.\");\n                }\n\n                if (nestedChildren && typeof nestedChildren !== \"string\" && (!Array.isArray(nestedChildren) || nestedChildren.some(function (nestedChild) {\n                    return typeof nestedChild !== \"string\";\n                }))) {\n                    throw new Error(\"Helmet expects a string as a child of <\" + child.type + \">. Did you forget to wrap your children in braces? ( <\" + child.type + \">{``}</\" + child.type + \"> ) Refer to our API for more information.\");\n                }\n            }\n\n            return true;\n        };\n\n        HelmetWrapper.prototype.mapChildrenToProps = function mapChildrenToProps(children, newProps) {\n            var _this2 = this;\n\n            var arrayTypeChildren = {};\n\n            _react2.default.Children.forEach(children, function (child) {\n                if (!child || !child.props) {\n                    return;\n                }\n\n                var _child$props = child.props,\n                    nestedChildren = _child$props.children,\n                    childProps = _objectWithoutProperties(_child$props, [\"children\"]);\n\n                var newChildProps = (0, _HelmetUtils.convertReactPropstoHtmlAttributes)(childProps);\n\n                _this2.warnOnInvalidChildren(child, nestedChildren);\n\n                switch (child.type) {\n                    case _HelmetConstants.TAG_NAMES.LINK:\n                    case _HelmetConstants.TAG_NAMES.META:\n                    case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    case _HelmetConstants.TAG_NAMES.SCRIPT:\n                    case _HelmetConstants.TAG_NAMES.STYLE:\n                        arrayTypeChildren = _this2.flattenArrayTypeChildren({\n                            child: child,\n                            arrayTypeChildren: arrayTypeChildren,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n\n                    default:\n                        newProps = _this2.mapObjectTypeChildren({\n                            child: child,\n                            newProps: newProps,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n                }\n            });\n\n            newProps = this.mapArrayTypeChildrenToProps(arrayTypeChildren, newProps);\n            return newProps;\n        };\n\n        HelmetWrapper.prototype.render = function render() {\n            var _props = this.props,\n                children = _props.children,\n                props = _objectWithoutProperties(_props, [\"children\"]);\n\n            var newProps = _extends({}, props);\n\n            if (children) {\n                newProps = this.mapChildrenToProps(children, newProps);\n            }\n\n            return _react2.default.createElement(Component, newProps);\n        };\n\n        _createClass(HelmetWrapper, null, [{\n            key: \"canUseDOM\",\n\n\n            // Component.peek comes from react-side-effect:\n            // For testing, you may use a static peek() method available on the returned component.\n            // It lets you get the current state without resetting the mounted instance stack.\n            // Don’t use it for anything other than testing.\n\n            /**\n             * @param {Object} base: {\"target\": \"_blank\", \"href\": \"http://mysite.com/\"}\n             * @param {Object} bodyAttributes: {\"className\": \"root\"}\n             * @param {String} defaultTitle: \"Default Title\"\n             * @param {Boolean} defer: true\n             * @param {Boolean} encodeSpecialCharacters: true\n             * @param {Object} htmlAttributes: {\"lang\": \"en\", \"amp\": undefined}\n             * @param {Array} link: [{\"rel\": \"canonical\", \"href\": \"http://mysite.com/example\"}]\n             * @param {Array} meta: [{\"name\": \"description\", \"content\": \"Test description\"}]\n             * @param {Array} noscript: [{\"innerHTML\": \"<img src='http://mysite.com/js/test.js'\"}]\n             * @param {Function} onChangeClientState: \"(newState) => console.log(newState)\"\n             * @param {Array} script: [{\"type\": \"text/javascript\", \"src\": \"http://mysite.com/js/test.js\"}]\n             * @param {Array} style: [{\"type\": \"text/css\", \"cssText\": \"div { display: block; color: blue; }\"}]\n             * @param {String} title: \"Title\"\n             * @param {Object} titleAttributes: {\"itemprop\": \"name\"}\n             * @param {String} titleTemplate: \"MySite.com - %s\"\n             */\n            set: function set(canUseDOM) {\n                Component.canUseDOM = canUseDOM;\n            }\n        }]);\n\n        return HelmetWrapper;\n    }(_react2.default.Component), _class.propTypes = {\n        base: _propTypes2.default.object,\n        bodyAttributes: _propTypes2.default.object,\n        children: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.node), _propTypes2.default.node]),\n        defaultTitle: _propTypes2.default.string,\n        defer: _propTypes2.default.bool,\n        encodeSpecialCharacters: _propTypes2.default.bool,\n        htmlAttributes: _propTypes2.default.object,\n        link: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        meta: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        noscript: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        onChangeClientState: _propTypes2.default.func,\n        script: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        style: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        title: _propTypes2.default.string,\n        titleAttributes: _propTypes2.default.object,\n        titleTemplate: _propTypes2.default.string\n    }, _class.defaultProps = {\n        defer: true,\n        encodeSpecialCharacters: true\n    }, _class.peek = Component.peek, _class.rewind = function () {\n        var mappedState = Component.rewind();\n        if (!mappedState) {\n            // provide fallback if mappedState is undefined\n            mappedState = (0, _HelmetUtils.mapStateOnServer)({\n                baseTag: [],\n                bodyAttributes: {},\n                encodeSpecialCharacters: true,\n                htmlAttributes: {},\n                linkTags: [],\n                metaTags: [],\n                noscriptTags: [],\n                scriptTags: [],\n                styleTags: [],\n                title: \"\",\n                titleAttributes: {}\n            });\n        }\n\n        return mappedState;\n    }, _temp;\n};\n\nvar NullComponent = function NullComponent() {\n    return null;\n};\n\nvar HelmetSideEffects = (0, _reactSideEffect2.default)(_HelmetUtils.reducePropsToState, _HelmetUtils.handleClientStateChange, _HelmetUtils.mapStateOnServer)(NullComponent);\n\nvar HelmetExport = Helmet(HelmetSideEffects);\nHelmetExport.renderStatic = HelmetExport.rewind;\n\nexports.Helmet = HelmetExport;\nexports.default = HelmetExport;"
+        },
+        {
+          "id": 23,
           "identifier": "E:\\git\\react-static-test\\node_modules\\resolve-pathname\\index.js",
           "name": "./node_modules/resolve-pathname/index.js",
           "index": 20,
@@ -2940,7 +2996,7 @@
           "source": "function isAbsolute(pathname) {\n  return pathname.charAt(0) === '/';\n}\n\n// About 1.5x faster than the two-arg version of Array#splice()\nfunction spliceOne(list, index) {\n  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {\n    list[i] = list[k];\n  }\n\n  list.pop();\n}\n\n// This implementation is based heavily on node's url.parse\nfunction resolvePathname(to) {\n  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';\n\n  var toParts = to && to.split('/') || [];\n  var fromParts = from && from.split('/') || [];\n\n  var isToAbs = to && isAbsolute(to);\n  var isFromAbs = from && isAbsolute(from);\n  var mustEndAbs = isToAbs || isFromAbs;\n\n  if (to && isAbsolute(to)) {\n    // to is absolute\n    fromParts = toParts;\n  } else if (toParts.length) {\n    // to is relative, drop the filename\n    fromParts.pop();\n    fromParts = fromParts.concat(toParts);\n  }\n\n  if (!fromParts.length) return '/';\n\n  var hasTrailingSlash = void 0;\n  if (fromParts.length) {\n    var last = fromParts[fromParts.length - 1];\n    hasTrailingSlash = last === '.' || last === '..' || last === '';\n  } else {\n    hasTrailingSlash = false;\n  }\n\n  var up = 0;\n  for (var i = fromParts.length; i >= 0; i--) {\n    var part = fromParts[i];\n\n    if (part === '.') {\n      spliceOne(fromParts, i);\n    } else if (part === '..') {\n      spliceOne(fromParts, i);\n      up++;\n    } else if (up) {\n      spliceOne(fromParts, i);\n      up--;\n    }\n  }\n\n  if (!mustEndAbs) for (; up--; up) {\n    fromParts.unshift('..');\n  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');\n\n  var result = fromParts.join('/');\n\n  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';\n\n  return result;\n}\n\nexport default resolvePathname;"
         },
         {
-          "id": 23,
+          "id": 24,
           "identifier": "E:\\git\\react-static-test\\node_modules\\value-equal\\index.js",
           "name": "./node_modules/value-equal/index.js",
           "index": 21,
@@ -2989,7 +3045,7 @@
           "source": "var _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nfunction valueEqual(a, b) {\n  if (a === b) return true;\n\n  if (a == null || b == null) return false;\n\n  if (Array.isArray(a)) {\n    return Array.isArray(b) && a.length === b.length && a.every(function (item, index) {\n      return valueEqual(item, b[index]);\n    });\n  }\n\n  var aType = typeof a === 'undefined' ? 'undefined' : _typeof(a);\n  var bType = typeof b === 'undefined' ? 'undefined' : _typeof(b);\n\n  if (aType !== bType) return false;\n\n  if (aType === 'object') {\n    var aValue = a.valueOf();\n    var bValue = b.valueOf();\n\n    if (aValue !== a || bValue !== b) return valueEqual(aValue, bValue);\n\n    var aKeys = Object.keys(a);\n    var bKeys = Object.keys(b);\n\n    if (aKeys.length !== bKeys.length) return false;\n\n    return aKeys.every(function (key) {\n      return valueEqual(a[key], b[key]);\n    });\n  }\n\n  return false;\n}\n\nexport default valueEqual;"
         },
         {
-          "id": 24,
+          "id": 25,
           "identifier": "E:\\git\\react-static-test\\node_modules\\tiny-warning\\dist\\tiny-warning.esm.js",
           "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
           "index": 22,
@@ -3038,7 +3094,7 @@
           "source": "var isProduction = process.env.NODE_ENV === 'production';\nfunction warning(condition, message) {\n  if (!isProduction) {\n    if (condition) {\n      return;\n    }\n\n    var text = \"Warning: \" + message;\n\n    if (typeof console !== 'undefined') {\n      console.warn(text);\n    }\n\n    try {\n      throw Error(text);\n    } catch (x) {}\n  }\n}\n\nexport default warning;\n"
         },
         {
-          "id": 25,
+          "id": 26,
           "identifier": "E:\\git\\react-static-test\\node_modules\\tiny-invariant\\dist\\tiny-invariant.esm.js",
           "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
           "index": 23,
@@ -3087,7 +3143,7 @@
           "source": "var isProduction = process.env.NODE_ENV === 'production';\nvar prefix = 'Invariant failed';\nfunction invariant(condition, message) {\n  if (condition) {\n    return;\n  }\n\n  if (isProduction) {\n    throw new Error(prefix);\n  } else {\n    throw new Error(prefix + \": \" + (message || ''));\n  }\n}\n\nexport default invariant;\n"
         },
         {
-          "id": 26,
+          "id": 27,
           "identifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
           "name": "./node_modules/react-router-dom/es/Link.js",
           "index": 28,
@@ -3138,7 +3194,7 @@
           "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React from \"react\";\nimport PropTypes from \"prop-types\";\nimport invariant from \"invariant\";\nimport { createLocation } from \"history\";\n\nvar isModifiedEvent = function isModifiedEvent(event) {\n  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);\n};\n\n/**\n * The public API for rendering a history-aware <a>.\n */\n\nvar Link = function (_React$Component) {\n  _inherits(Link, _React$Component);\n\n  function Link() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Link);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.handleClick = function (event) {\n      if (_this.props.onClick) _this.props.onClick(event);\n\n      if (!event.defaultPrevented && // onClick prevented default\n      event.button === 0 && // ignore everything but left clicks\n      !_this.props.target && // let browser handle \"target=_blank\" etc.\n      !isModifiedEvent(event) // ignore clicks with modifier keys\n      ) {\n          event.preventDefault();\n\n          var history = _this.context.router.history;\n          var _this$props = _this.props,\n              replace = _this$props.replace,\n              to = _this$props.to;\n\n\n          if (replace) {\n            history.replace(to);\n          } else {\n            history.push(to);\n          }\n        }\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Link.prototype.render = function render() {\n    var _props = this.props,\n        replace = _props.replace,\n        to = _props.to,\n        innerRef = _props.innerRef,\n        props = _objectWithoutProperties(_props, [\"replace\", \"to\", \"innerRef\"]); // eslint-disable-line no-unused-vars\n\n    invariant(this.context.router, \"You should not use <Link> outside a <Router>\");\n\n    invariant(to !== undefined, 'You must specify the \"to\" property');\n\n    var history = this.context.router.history;\n\n    var location = typeof to === \"string\" ? createLocation(to, null, null, history.location) : to;\n\n    var href = history.createHref(location);\n    return React.createElement(\"a\", _extends({}, props, { onClick: this.handleClick, href: href, ref: innerRef }));\n  };\n\n  return Link;\n}(React.Component);\n\nLink.propTypes = {\n  onClick: PropTypes.func,\n  target: PropTypes.string,\n  replace: PropTypes.bool,\n  to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,\n  innerRef: PropTypes.oneOfType([PropTypes.string, PropTypes.func])\n};\nLink.defaultProps = {\n  replace: false\n};\nLink.contextTypes = {\n  router: PropTypes.shape({\n    history: PropTypes.shape({\n      push: PropTypes.func.isRequired,\n      replace: PropTypes.func.isRequired,\n      createHref: PropTypes.func.isRequired\n    }).isRequired\n  }).isRequired\n};\n\n\nexport default Link;"
         },
         {
-          "id": 27,
+          "id": 28,
           "identifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
           "name": "./node_modules/react-router-dom/es/Route.js",
           "index": 32,
@@ -3189,7 +3245,7 @@
           "source": "// Written in this round about way for babel-transform-imports\nimport Route from \"react-router/es/Route\";\n\nexport default Route;"
         },
         {
-          "id": 28,
+          "id": 29,
           "identifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "name": "./node_modules/react-router/es/Route.js",
           "index": 33,
@@ -3204,14 +3260,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
-          "issuerId": 27,
+          "issuerId": 28,
           "issuerName": "./node_modules/react-router-dom/es/Route.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 27,
+              "moduleId": 28,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
               "module": "./node_modules/react-router-dom/es/Route.js",
               "moduleName": "./node_modules/react-router-dom/es/Route.js",
@@ -3240,7 +3296,7 @@
           "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport warning from \"warning\";\nimport invariant from \"invariant\";\nimport React from \"react\";\nimport PropTypes from \"prop-types\";\nimport matchPath from \"./matchPath\";\n\nvar isEmptyChildren = function isEmptyChildren(children) {\n  return React.Children.count(children) === 0;\n};\n\n/**\n * The public API for matching a single path and rendering.\n */\n\nvar Route = function (_React$Component) {\n  _inherits(Route, _React$Component);\n\n  function Route() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Route);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {\n      match: _this.computeMatch(_this.props, _this.context.router)\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Route.prototype.getChildContext = function getChildContext() {\n    return {\n      router: _extends({}, this.context.router, {\n        route: {\n          location: this.props.location || this.context.router.route.location,\n          match: this.state.match\n        }\n      })\n    };\n  };\n\n  Route.prototype.computeMatch = function computeMatch(_ref, router) {\n    var computedMatch = _ref.computedMatch,\n        location = _ref.location,\n        path = _ref.path,\n        strict = _ref.strict,\n        exact = _ref.exact,\n        sensitive = _ref.sensitive;\n\n    if (computedMatch) return computedMatch; // <Switch> already computed the match for us\n\n    invariant(router, \"You should not use <Route> or withRouter() outside a <Router>\");\n\n    var route = router.route;\n\n    var pathname = (location || route.location).pathname;\n\n    return matchPath(pathname, { path: path, strict: strict, exact: exact, sensitive: sensitive }, route.match);\n  };\n\n  Route.prototype.componentWillMount = function componentWillMount() {\n    warning(!(this.props.component && this.props.render), \"You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored\");\n\n    warning(!(this.props.component && this.props.children && !isEmptyChildren(this.props.children)), \"You should not use <Route component> and <Route children> in the same route; <Route children> will be ignored\");\n\n    warning(!(this.props.render && this.props.children && !isEmptyChildren(this.props.children)), \"You should not use <Route render> and <Route children> in the same route; <Route children> will be ignored\");\n  };\n\n  Route.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps, nextContext) {\n    warning(!(nextProps.location && !this.props.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no \"location\" prop and then provided one on a subsequent render.');\n\n    warning(!(!nextProps.location && this.props.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a \"location\" prop initially but omitted it on a subsequent render.');\n\n    this.setState({\n      match: this.computeMatch(nextProps, nextContext.router)\n    });\n  };\n\n  Route.prototype.render = function render() {\n    var match = this.state.match;\n    var _props = this.props,\n        children = _props.children,\n        component = _props.component,\n        render = _props.render;\n    var _context$router = this.context.router,\n        history = _context$router.history,\n        route = _context$router.route,\n        staticContext = _context$router.staticContext;\n\n    var location = this.props.location || route.location;\n    var props = { match: match, location: location, history: history, staticContext: staticContext };\n\n    if (component) return match ? React.createElement(component, props) : null;\n\n    if (render) return match ? render(props) : null;\n\n    if (typeof children === \"function\") return children(props);\n\n    if (children && !isEmptyChildren(children)) return React.Children.only(children);\n\n    return null;\n  };\n\n  return Route;\n}(React.Component);\n\nRoute.propTypes = {\n  computedMatch: PropTypes.object, // private, from <Switch>\n  path: PropTypes.string,\n  exact: PropTypes.bool,\n  strict: PropTypes.bool,\n  sensitive: PropTypes.bool,\n  component: PropTypes.func,\n  render: PropTypes.func,\n  children: PropTypes.oneOfType([PropTypes.func, PropTypes.node]),\n  location: PropTypes.object\n};\nRoute.contextTypes = {\n  router: PropTypes.shape({\n    history: PropTypes.object.isRequired,\n    route: PropTypes.object.isRequired,\n    staticContext: PropTypes.object\n  })\n};\nRoute.childContextTypes = {\n  router: PropTypes.object.isRequired\n};\n\n\nexport default Route;"
         },
         {
-          "id": 29,
+          "id": 30,
           "identifier": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
           "name": "./node_modules/path-to-regexp/index.js",
           "index": 35,
@@ -3254,9 +3310,9 @@
             5
           ],
           "assets": [],
-          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
-          "issuerId": 30,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\matchPath.js",
+          "issuerId": 16,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3271,7 +3327,7 @@
               "loc": "1:0-42"
             },
             {
-              "moduleId": 30,
+              "moduleId": 31,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
               "module": "./node_modules/react-router/es/generatePath.js",
               "moduleName": "./node_modules/react-router/es/generatePath.js",
@@ -3289,7 +3345,7 @@
           "source": "var isarray = require('isarray')\n\n/**\n * Expose `pathToRegexp`.\n */\nmodule.exports = pathToRegexp\nmodule.exports.parse = parse\nmodule.exports.compile = compile\nmodule.exports.tokensToFunction = tokensToFunction\nmodule.exports.tokensToRegExp = tokensToRegExp\n\n/**\n * The main path matching regexp utility.\n *\n * @type {RegExp}\n */\nvar PATH_REGEXP = new RegExp([\n  // Match escaped characters that would otherwise appear in future matches.\n  // This allows the user to escape special characters that won't transform.\n  '(\\\\\\\\.)',\n  // Match Express-style parameters and un-named parameters with a prefix\n  // and optional suffixes. Matches appear as:\n  //\n  // \"/:test(\\\\d+)?\" => [\"/\", \"test\", \"\\d+\", undefined, \"?\", undefined]\n  // \"/route(\\\\d+)\"  => [undefined, undefined, undefined, \"\\d+\", undefined, undefined]\n  // \"/*\"            => [\"/\", undefined, undefined, undefined, undefined, \"*\"]\n  '([\\\\/.])?(?:(?:\\\\:(\\\\w+)(?:\\\\(((?:\\\\\\\\.|[^\\\\\\\\()])+)\\\\))?|\\\\(((?:\\\\\\\\.|[^\\\\\\\\()])+)\\\\))([+*?])?|(\\\\*))'\n].join('|'), 'g')\n\n/**\n * Parse a string for the raw tokens.\n *\n * @param  {string}  str\n * @param  {Object=} options\n * @return {!Array}\n */\nfunction parse (str, options) {\n  var tokens = []\n  var key = 0\n  var index = 0\n  var path = ''\n  var defaultDelimiter = options && options.delimiter || '/'\n  var res\n\n  while ((res = PATH_REGEXP.exec(str)) != null) {\n    var m = res[0]\n    var escaped = res[1]\n    var offset = res.index\n    path += str.slice(index, offset)\n    index = offset + m.length\n\n    // Ignore already escaped sequences.\n    if (escaped) {\n      path += escaped[1]\n      continue\n    }\n\n    var next = str[index]\n    var prefix = res[2]\n    var name = res[3]\n    var capture = res[4]\n    var group = res[5]\n    var modifier = res[6]\n    var asterisk = res[7]\n\n    // Push the current path onto the tokens.\n    if (path) {\n      tokens.push(path)\n      path = ''\n    }\n\n    var partial = prefix != null && next != null && next !== prefix\n    var repeat = modifier === '+' || modifier === '*'\n    var optional = modifier === '?' || modifier === '*'\n    var delimiter = res[2] || defaultDelimiter\n    var pattern = capture || group\n\n    tokens.push({\n      name: name || key++,\n      prefix: prefix || '',\n      delimiter: delimiter,\n      optional: optional,\n      repeat: repeat,\n      partial: partial,\n      asterisk: !!asterisk,\n      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')\n    })\n  }\n\n  // Match any characters still remaining.\n  if (index < str.length) {\n    path += str.substr(index)\n  }\n\n  // If the path exists, push it onto the end.\n  if (path) {\n    tokens.push(path)\n  }\n\n  return tokens\n}\n\n/**\n * Compile a string to a template function for the path.\n *\n * @param  {string}             str\n * @param  {Object=}            options\n * @return {!function(Object=, Object=)}\n */\nfunction compile (str, options) {\n  return tokensToFunction(parse(str, options))\n}\n\n/**\n * Prettier encoding of URI path segments.\n *\n * @param  {string}\n * @return {string}\n */\nfunction encodeURIComponentPretty (str) {\n  return encodeURI(str).replace(/[\\/?#]/g, function (c) {\n    return '%' + c.charCodeAt(0).toString(16).toUpperCase()\n  })\n}\n\n/**\n * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.\n *\n * @param  {string}\n * @return {string}\n */\nfunction encodeAsterisk (str) {\n  return encodeURI(str).replace(/[?#]/g, function (c) {\n    return '%' + c.charCodeAt(0).toString(16).toUpperCase()\n  })\n}\n\n/**\n * Expose a method for transforming tokens into the path function.\n */\nfunction tokensToFunction (tokens) {\n  // Compile all the tokens into regexps.\n  var matches = new Array(tokens.length)\n\n  // Compile all the patterns before compilation.\n  for (var i = 0; i < tokens.length; i++) {\n    if (typeof tokens[i] === 'object') {\n      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$')\n    }\n  }\n\n  return function (obj, opts) {\n    var path = ''\n    var data = obj || {}\n    var options = opts || {}\n    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent\n\n    for (var i = 0; i < tokens.length; i++) {\n      var token = tokens[i]\n\n      if (typeof token === 'string') {\n        path += token\n\n        continue\n      }\n\n      var value = data[token.name]\n      var segment\n\n      if (value == null) {\n        if (token.optional) {\n          // Prepend partial segment prefixes.\n          if (token.partial) {\n            path += token.prefix\n          }\n\n          continue\n        } else {\n          throw new TypeError('Expected \"' + token.name + '\" to be defined')\n        }\n      }\n\n      if (isarray(value)) {\n        if (!token.repeat) {\n          throw new TypeError('Expected \"' + token.name + '\" to not repeat, but received `' + JSON.stringify(value) + '`')\n        }\n\n        if (value.length === 0) {\n          if (token.optional) {\n            continue\n          } else {\n            throw new TypeError('Expected \"' + token.name + '\" to not be empty')\n          }\n        }\n\n        for (var j = 0; j < value.length; j++) {\n          segment = encode(value[j])\n\n          if (!matches[i].test(segment)) {\n            throw new TypeError('Expected all \"' + token.name + '\" to match \"' + token.pattern + '\", but received `' + JSON.stringify(segment) + '`')\n          }\n\n          path += (j === 0 ? token.prefix : token.delimiter) + segment\n        }\n\n        continue\n      }\n\n      segment = token.asterisk ? encodeAsterisk(value) : encode(value)\n\n      if (!matches[i].test(segment)) {\n        throw new TypeError('Expected \"' + token.name + '\" to match \"' + token.pattern + '\", but received \"' + segment + '\"')\n      }\n\n      path += token.prefix + segment\n    }\n\n    return path\n  }\n}\n\n/**\n * Escape a regular expression string.\n *\n * @param  {string} str\n * @return {string}\n */\nfunction escapeString (str) {\n  return str.replace(/([.+*?=^!:${}()[\\]|\\/\\\\])/g, '\\\\$1')\n}\n\n/**\n * Escape the capturing group by escaping special characters and meaning.\n *\n * @param  {string} group\n * @return {string}\n */\nfunction escapeGroup (group) {\n  return group.replace(/([=!:$\\/()])/g, '\\\\$1')\n}\n\n/**\n * Attach the keys as a property of the regexp.\n *\n * @param  {!RegExp} re\n * @param  {Array}   keys\n * @return {!RegExp}\n */\nfunction attachKeys (re, keys) {\n  re.keys = keys\n  return re\n}\n\n/**\n * Get the flags for a regexp from the options.\n *\n * @param  {Object} options\n * @return {string}\n */\nfunction flags (options) {\n  return options.sensitive ? '' : 'i'\n}\n\n/**\n * Pull out keys from a regexp.\n *\n * @param  {!RegExp} path\n * @param  {!Array}  keys\n * @return {!RegExp}\n */\nfunction regexpToRegexp (path, keys) {\n  // Use a negative lookahead to match only capturing groups.\n  var groups = path.source.match(/\\((?!\\?)/g)\n\n  if (groups) {\n    for (var i = 0; i < groups.length; i++) {\n      keys.push({\n        name: i,\n        prefix: null,\n        delimiter: null,\n        optional: false,\n        repeat: false,\n        partial: false,\n        asterisk: false,\n        pattern: null\n      })\n    }\n  }\n\n  return attachKeys(path, keys)\n}\n\n/**\n * Transform an array into a regexp.\n *\n * @param  {!Array}  path\n * @param  {Array}   keys\n * @param  {!Object} options\n * @return {!RegExp}\n */\nfunction arrayToRegexp (path, keys, options) {\n  var parts = []\n\n  for (var i = 0; i < path.length; i++) {\n    parts.push(pathToRegexp(path[i], keys, options).source)\n  }\n\n  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options))\n\n  return attachKeys(regexp, keys)\n}\n\n/**\n * Create a path regexp from string input.\n *\n * @param  {string}  path\n * @param  {!Array}  keys\n * @param  {!Object} options\n * @return {!RegExp}\n */\nfunction stringToRegexp (path, keys, options) {\n  return tokensToRegExp(parse(path, options), keys, options)\n}\n\n/**\n * Expose a function for taking tokens and returning a RegExp.\n *\n * @param  {!Array}          tokens\n * @param  {(Array|Object)=} keys\n * @param  {Object=}         options\n * @return {!RegExp}\n */\nfunction tokensToRegExp (tokens, keys, options) {\n  if (!isarray(keys)) {\n    options = /** @type {!Object} */ (keys || options)\n    keys = []\n  }\n\n  options = options || {}\n\n  var strict = options.strict\n  var end = options.end !== false\n  var route = ''\n\n  // Iterate over the tokens and create our regexp string.\n  for (var i = 0; i < tokens.length; i++) {\n    var token = tokens[i]\n\n    if (typeof token === 'string') {\n      route += escapeString(token)\n    } else {\n      var prefix = escapeString(token.prefix)\n      var capture = '(?:' + token.pattern + ')'\n\n      keys.push(token)\n\n      if (token.repeat) {\n        capture += '(?:' + prefix + capture + ')*'\n      }\n\n      if (token.optional) {\n        if (!token.partial) {\n          capture = '(?:' + prefix + '(' + capture + '))?'\n        } else {\n          capture = prefix + '(' + capture + ')?'\n        }\n      } else {\n        capture = prefix + '(' + capture + ')'\n      }\n\n      route += capture\n    }\n  }\n\n  var delimiter = escapeString(options.delimiter || '/')\n  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter\n\n  // In non-strict mode we allow a slash at the end of match. If the path to\n  // match already ends with a slash, we remove it for consistency. The slash\n  // is valid at the end of a path match, not in the middle. This is important\n  // in non-ending mode, where \"/test/\" shouldn't match \"/test//route\".\n  if (!strict) {\n    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?'\n  }\n\n  if (end) {\n    route += '$'\n  } else {\n    // In non-ending mode, we need the capturing groups to match as much as\n    // possible by using a positive lookahead to the end or next path segment.\n    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)'\n  }\n\n  return attachKeys(new RegExp('^' + route, flags(options)), keys)\n}\n\n/**\n * Normalize the given path string, returning a regular expression.\n *\n * An empty array can be passed in for the keys, which will hold the\n * placeholder key descriptions. For example, using `/user/:id`, `keys` will\n * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.\n *\n * @param  {(string|RegExp|Array)} path\n * @param  {(Array|Object)=}       keys\n * @param  {Object=}               options\n * @return {!RegExp}\n */\nfunction pathToRegexp (path, keys, options) {\n  if (!isarray(keys)) {\n    options = /** @type {!Object} */ (keys || options)\n    keys = []\n  }\n\n  options = options || {}\n\n  if (path instanceof RegExp) {\n    return regexpToRegexp(path, /** @type {!Array} */ (keys))\n  }\n\n  if (isarray(path)) {\n    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)\n  }\n\n  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)\n}\n"
         },
         {
-          "id": 30,
+          "id": 31,
           "identifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
           "name": "./node_modules/react-router/es/generatePath.js",
           "index": 41,
@@ -3340,53 +3396,6 @@
           "source": "import pathToRegexp from \"path-to-regexp\";\n\nvar patternCache = {};\nvar cacheLimit = 10000;\nvar cacheCount = 0;\n\nvar compileGenerator = function compileGenerator(pattern) {\n  var cacheKey = pattern;\n  var cache = patternCache[cacheKey] || (patternCache[cacheKey] = {});\n\n  if (cache[pattern]) return cache[pattern];\n\n  var compiledGenerator = pathToRegexp.compile(pattern);\n\n  if (cacheCount < cacheLimit) {\n    cache[pattern] = compiledGenerator;\n    cacheCount++;\n  }\n\n  return compiledGenerator;\n};\n\n/**\n * Public API for generating a URL pathname from a pattern and parameters.\n */\nvar generatePath = function generatePath() {\n  var pattern = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : \"/\";\n  var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n\n  if (pattern === \"/\") {\n    return pattern;\n  }\n  var generator = compileGenerator(pattern);\n  return generator(params, { pretty: true });\n};\n\nexport default generatePath;"
         },
         {
-          "id": 31,
-          "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "name": "./node_modules/react-helmet/lib/Helmet.js",
-          "index": 51,
-          "index2": 54,
-          "size": 13995,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            5
-          ],
-          "assets": [],
-          "issuer": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
-          "issuerId": 21,
-          "issuerName": "./node_modules/react-static/lib/index.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 21,
-              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
-              "module": "./node_modules/react-static/lib/index.js",
-              "moduleName": "./node_modules/react-static/lib/index.js",
-              "type": "cjs require",
-              "userRequest": "react-helmet",
-              "loc": "41:19-42"
-            },
-            {
-              "moduleId": 119,
-              "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\client\\components\\Redirect.js",
-              "module": "./node_modules/react-static/lib/client/components/Redirect.js",
-              "moduleName": "./node_modules/react-static/lib/client/components/Redirect.js",
-              "type": "cjs require",
-              "userRequest": "react-helmet",
-              "loc": "19:19-42"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 3,
-          "source": "exports.__esModule = true;\nexports.Helmet = undefined;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactSideEffect = require(\"react-side-effect\");\n\nvar _reactSideEffect2 = _interopRequireDefault(_reactSideEffect);\n\nvar _reactFastCompare = require(\"react-fast-compare\");\n\nvar _reactFastCompare2 = _interopRequireDefault(_reactFastCompare);\n\nvar _HelmetUtils = require(\"./HelmetUtils.js\");\n\nvar _HelmetConstants = require(\"./HelmetConstants.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Helmet = function Helmet(Component) {\n    var _class, _temp;\n\n    return _temp = _class = function (_React$Component) {\n        _inherits(HelmetWrapper, _React$Component);\n\n        function HelmetWrapper() {\n            _classCallCheck(this, HelmetWrapper);\n\n            return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n        }\n\n        HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {\n            return !(0, _reactFastCompare2.default)(this.props, nextProps);\n        };\n\n        HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {\n            if (!nestedChildren) {\n                return null;\n            }\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.SCRIPT:\n                case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    return {\n                        innerHTML: nestedChildren\n                    };\n\n                case _HelmetConstants.TAG_NAMES.STYLE:\n                    return {\n                        cssText: nestedChildren\n                    };\n            }\n\n            throw new Error(\"<\" + child.type + \" /> elements are self-closing and can not contain children. Refer to our API for more information.\");\n        };\n\n        HelmetWrapper.prototype.flattenArrayTypeChildren = function flattenArrayTypeChildren(_ref) {\n            var _extends2;\n\n            var child = _ref.child,\n                arrayTypeChildren = _ref.arrayTypeChildren,\n                newChildProps = _ref.newChildProps,\n                nestedChildren = _ref.nestedChildren;\n\n            return _extends({}, arrayTypeChildren, (_extends2 = {}, _extends2[child.type] = [].concat(arrayTypeChildren[child.type] || [], [_extends({}, newChildProps, this.mapNestedChildrenToProps(child, nestedChildren))]), _extends2));\n        };\n\n        HelmetWrapper.prototype.mapObjectTypeChildren = function mapObjectTypeChildren(_ref2) {\n            var _extends3, _extends4;\n\n            var child = _ref2.child,\n                newProps = _ref2.newProps,\n                newChildProps = _ref2.newChildProps,\n                nestedChildren = _ref2.nestedChildren;\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.TITLE:\n                    return _extends({}, newProps, (_extends3 = {}, _extends3[child.type] = nestedChildren, _extends3.titleAttributes = _extends({}, newChildProps), _extends3));\n\n                case _HelmetConstants.TAG_NAMES.BODY:\n                    return _extends({}, newProps, {\n                        bodyAttributes: _extends({}, newChildProps)\n                    });\n\n                case _HelmetConstants.TAG_NAMES.HTML:\n                    return _extends({}, newProps, {\n                        htmlAttributes: _extends({}, newChildProps)\n                    });\n            }\n\n            return _extends({}, newProps, (_extends4 = {}, _extends4[child.type] = _extends({}, newChildProps), _extends4));\n        };\n\n        HelmetWrapper.prototype.mapArrayTypeChildrenToProps = function mapArrayTypeChildrenToProps(arrayTypeChildren, newProps) {\n            var newFlattenedProps = _extends({}, newProps);\n\n            Object.keys(arrayTypeChildren).forEach(function (arrayChildName) {\n                var _extends5;\n\n                newFlattenedProps = _extends({}, newFlattenedProps, (_extends5 = {}, _extends5[arrayChildName] = arrayTypeChildren[arrayChildName], _extends5));\n            });\n\n            return newFlattenedProps;\n        };\n\n        HelmetWrapper.prototype.warnOnInvalidChildren = function warnOnInvalidChildren(child, nestedChildren) {\n            if (process.env.NODE_ENV !== \"production\") {\n                if (!_HelmetConstants.VALID_TAG_NAMES.some(function (name) {\n                    return child.type === name;\n                })) {\n                    if (typeof child.type === \"function\") {\n                        return (0, _HelmetUtils.warn)(\"You may be attempting to nest <Helmet> components within each other, which is not allowed. Refer to our API for more information.\");\n                    }\n\n                    return (0, _HelmetUtils.warn)(\"Only elements types \" + _HelmetConstants.VALID_TAG_NAMES.join(\", \") + \" are allowed. Helmet does not support rendering <\" + child.type + \"> elements. Refer to our API for more information.\");\n                }\n\n                if (nestedChildren && typeof nestedChildren !== \"string\" && (!Array.isArray(nestedChildren) || nestedChildren.some(function (nestedChild) {\n                    return typeof nestedChild !== \"string\";\n                }))) {\n                    throw new Error(\"Helmet expects a string as a child of <\" + child.type + \">. Did you forget to wrap your children in braces? ( <\" + child.type + \">{``}</\" + child.type + \"> ) Refer to our API for more information.\");\n                }\n            }\n\n            return true;\n        };\n\n        HelmetWrapper.prototype.mapChildrenToProps = function mapChildrenToProps(children, newProps) {\n            var _this2 = this;\n\n            var arrayTypeChildren = {};\n\n            _react2.default.Children.forEach(children, function (child) {\n                if (!child || !child.props) {\n                    return;\n                }\n\n                var _child$props = child.props,\n                    nestedChildren = _child$props.children,\n                    childProps = _objectWithoutProperties(_child$props, [\"children\"]);\n\n                var newChildProps = (0, _HelmetUtils.convertReactPropstoHtmlAttributes)(childProps);\n\n                _this2.warnOnInvalidChildren(child, nestedChildren);\n\n                switch (child.type) {\n                    case _HelmetConstants.TAG_NAMES.LINK:\n                    case _HelmetConstants.TAG_NAMES.META:\n                    case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    case _HelmetConstants.TAG_NAMES.SCRIPT:\n                    case _HelmetConstants.TAG_NAMES.STYLE:\n                        arrayTypeChildren = _this2.flattenArrayTypeChildren({\n                            child: child,\n                            arrayTypeChildren: arrayTypeChildren,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n\n                    default:\n                        newProps = _this2.mapObjectTypeChildren({\n                            child: child,\n                            newProps: newProps,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n                }\n            });\n\n            newProps = this.mapArrayTypeChildrenToProps(arrayTypeChildren, newProps);\n            return newProps;\n        };\n\n        HelmetWrapper.prototype.render = function render() {\n            var _props = this.props,\n                children = _props.children,\n                props = _objectWithoutProperties(_props, [\"children\"]);\n\n            var newProps = _extends({}, props);\n\n            if (children) {\n                newProps = this.mapChildrenToProps(children, newProps);\n            }\n\n            return _react2.default.createElement(Component, newProps);\n        };\n\n        _createClass(HelmetWrapper, null, [{\n            key: \"canUseDOM\",\n\n\n            // Component.peek comes from react-side-effect:\n            // For testing, you may use a static peek() method available on the returned component.\n            // It lets you get the current state without resetting the mounted instance stack.\n            // Don’t use it for anything other than testing.\n\n            /**\n             * @param {Object} base: {\"target\": \"_blank\", \"href\": \"http://mysite.com/\"}\n             * @param {Object} bodyAttributes: {\"className\": \"root\"}\n             * @param {String} defaultTitle: \"Default Title\"\n             * @param {Boolean} defer: true\n             * @param {Boolean} encodeSpecialCharacters: true\n             * @param {Object} htmlAttributes: {\"lang\": \"en\", \"amp\": undefined}\n             * @param {Array} link: [{\"rel\": \"canonical\", \"href\": \"http://mysite.com/example\"}]\n             * @param {Array} meta: [{\"name\": \"description\", \"content\": \"Test description\"}]\n             * @param {Array} noscript: [{\"innerHTML\": \"<img src='http://mysite.com/js/test.js'\"}]\n             * @param {Function} onChangeClientState: \"(newState) => console.log(newState)\"\n             * @param {Array} script: [{\"type\": \"text/javascript\", \"src\": \"http://mysite.com/js/test.js\"}]\n             * @param {Array} style: [{\"type\": \"text/css\", \"cssText\": \"div { display: block; color: blue; }\"}]\n             * @param {String} title: \"Title\"\n             * @param {Object} titleAttributes: {\"itemprop\": \"name\"}\n             * @param {String} titleTemplate: \"MySite.com - %s\"\n             */\n            set: function set(canUseDOM) {\n                Component.canUseDOM = canUseDOM;\n            }\n        }]);\n\n        return HelmetWrapper;\n    }(_react2.default.Component), _class.propTypes = {\n        base: _propTypes2.default.object,\n        bodyAttributes: _propTypes2.default.object,\n        children: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.node), _propTypes2.default.node]),\n        defaultTitle: _propTypes2.default.string,\n        defer: _propTypes2.default.bool,\n        encodeSpecialCharacters: _propTypes2.default.bool,\n        htmlAttributes: _propTypes2.default.object,\n        link: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        meta: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        noscript: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        onChangeClientState: _propTypes2.default.func,\n        script: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        style: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        title: _propTypes2.default.string,\n        titleAttributes: _propTypes2.default.object,\n        titleTemplate: _propTypes2.default.string\n    }, _class.defaultProps = {\n        defer: true,\n        encodeSpecialCharacters: true\n    }, _class.peek = Component.peek, _class.rewind = function () {\n        var mappedState = Component.rewind();\n        if (!mappedState) {\n            // provide fallback if mappedState is undefined\n            mappedState = (0, _HelmetUtils.mapStateOnServer)({\n                baseTag: [],\n                bodyAttributes: {},\n                encodeSpecialCharacters: true,\n                htmlAttributes: {},\n                linkTags: [],\n                metaTags: [],\n                noscriptTags: [],\n                scriptTags: [],\n                styleTags: [],\n                title: \"\",\n                titleAttributes: {}\n            });\n        }\n\n        return mappedState;\n    }, _temp;\n};\n\nvar NullComponent = function NullComponent() {\n    return null;\n};\n\nvar HelmetSideEffects = (0, _reactSideEffect2.default)(_HelmetUtils.reducePropsToState, _HelmetUtils.handleClientStateChange, _HelmetUtils.mapStateOnServer)(NullComponent);\n\nvar HelmetExport = Helmet(HelmetSideEffects);\nHelmetExport.renderStatic = HelmetExport.rewind;\n\nexports.Helmet = HelmetExport;\nexports.default = HelmetExport;"
-        },
-        {
           "id": 32,
           "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\HelmetConstants.js",
           "name": "./node_modules/react-helmet/lib/HelmetConstants.js",
@@ -3402,14 +3411,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "issuerId": 31,
+          "issuerId": 22,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 31,
+              "moduleId": 22,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
               "module": "./node_modules/react-helmet/lib/Helmet.js",
               "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -4550,14 +4559,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
-          "issuerId": 29,
+          "issuerId": 30,
           "issuerName": "./node_modules/path-to-regexp/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 29,
+              "moduleId": 30,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
               "module": "./node_modules/path-to-regexp/index.js",
               "moduleName": "./node_modules/path-to-regexp/index.js",
@@ -5132,14 +5141,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "issuerId": 31,
+          "issuerId": 22,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 31,
+              "moduleId": 22,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
               "module": "./node_modules/react-helmet/lib/Helmet.js",
               "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -5246,14 +5255,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "issuerId": 31,
+          "issuerId": 22,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 31,
+              "moduleId": 22,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
               "module": "./node_modules/react-helmet/lib/Helmet.js",
               "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -5284,14 +5293,14 @@
           ],
           "assets": [],
           "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "issuerId": 31,
+          "issuerId": 22,
           "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 31,
+              "moduleId": 22,
               "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
               "module": "./node_modules/react-helmet/lib/Helmet.js",
               "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -7120,10 +7129,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.d54406ed.js",
-        "bootstrap.d54406ed.js.map"
+        "bootstrap.a27ef780.js",
+        "bootstrap.a27ef780.js.map"
       ],
-      "hash": "d54406ed0a0229f02cb4",
+      "hash": "a27ef780bf078893edb3",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -7172,7 +7181,16 @@
           "loc": "7:13-29"
         },
         {
-          "moduleId": 26,
+          "moduleId": 22,
+          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+          "module": "./node_modules/react-helmet/lib/Helmet.js",
+          "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
+          "type": "cjs require",
+          "userRequest": "react",
+          "loc": "8:13-29"
+        },
+        {
+          "moduleId": 27,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
           "module": "./node_modules/react-router-dom/es/Link.js",
           "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -7181,22 +7199,13 @@
           "loc": "11:0-26"
         },
         {
-          "moduleId": 28,
+          "moduleId": 29,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "module": "./node_modules/react-router/es/Route.js",
           "moduleName": "./node_modules/react-router/es/Route.js",
           "type": "harmony import",
           "userRequest": "react",
           "loc": "11:0-26"
-        },
-        {
-          "moduleId": 31,
-          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "module": "./node_modules/react-helmet/lib/Helmet.js",
-          "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
-          "type": "cjs require",
-          "userRequest": "react",
-          "loc": "8:13-29"
         },
         {
           "moduleId": 39,
@@ -7561,7 +7570,16 @@
           "loc": "12:0-35"
         },
         {
-          "moduleId": 26,
+          "moduleId": 22,
+          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+          "module": "./node_modules/react-helmet/lib/Helmet.js",
+          "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
+          "type": "cjs require",
+          "userRequest": "prop-types",
+          "loc": "12:17-38"
+        },
+        {
+          "moduleId": 27,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
           "module": "./node_modules/react-router-dom/es/Link.js",
           "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -7570,22 +7588,13 @@
           "loc": "12:0-35"
         },
         {
-          "moduleId": 28,
+          "moduleId": 29,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "module": "./node_modules/react-router/es/Route.js",
           "moduleName": "./node_modules/react-router/es/Route.js",
           "type": "harmony import",
           "userRequest": "prop-types",
           "loc": "12:0-35"
-        },
-        {
-          "moduleId": 31,
-          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-          "module": "./node_modules/react-helmet/lib/Helmet.js",
-          "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
-          "type": "cjs require",
-          "userRequest": "prop-types",
-          "loc": "12:17-38"
         },
         {
           "moduleId": 42,
@@ -7899,9 +7908,9 @@
         5
       ],
       "assets": [],
-      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
-      "issuerId": 56,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\HashRouter.js",
+      "issuerId": 60,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -7916,7 +7925,7 @@
           "loc": "9:0-30"
         },
         {
-          "moduleId": 28,
+          "moduleId": 29,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "module": "./node_modules/react-router/es/Route.js",
           "moduleName": "./node_modules/react-router/es/Route.js",
@@ -8303,7 +8312,7 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
-      "issuerId": 26,
+      "issuerId": 27,
       "issuerName": "./node_modules/react-router-dom/es/Link.js",
       "failed": false,
       "errors": 0,
@@ -8319,7 +8328,7 @@
           "loc": "10:0-34"
         },
         {
-          "moduleId": 26,
+          "moduleId": 27,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
           "module": "./node_modules/react-router-dom/es/Link.js",
           "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -8328,7 +8337,7 @@
           "loc": "13:0-34"
         },
         {
-          "moduleId": 28,
+          "moduleId": 29,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "module": "./node_modules/react-router/es/Route.js",
           "moduleName": "./node_modules/react-router/es/Route.js",
@@ -8488,15 +8497,15 @@
         5
       ],
       "assets": [],
-      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\BrowserRouter.js",
-      "issuerId": 56,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\HashRouter.js",
+      "issuerId": 60,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 26,
+          "moduleId": 27,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
           "module": "./node_modules/react-router-dom/es/Link.js",
           "moduleName": "./node_modules/react-router-dom/es/Link.js",
@@ -8983,7 +8992,7 @@
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 28,
+          "moduleId": 29,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
           "module": "./node_modules/react-router/es/Route.js",
           "moduleName": "./node_modules/react-router/es/Route.js",
@@ -9320,6 +9329,62 @@
     },
     {
       "id": 22,
+      "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
+      "name": "./node_modules/react-helmet/lib/Helmet.js",
+      "index": 51,
+      "index2": 54,
+      "size": 13995,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        5
+      ],
+      "assets": [],
+      "issuer": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/react-static/lib/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 21,
+          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
+          "module": "./node_modules/react-static/lib/index.js",
+          "moduleName": "./node_modules/react-static/lib/index.js",
+          "type": "cjs require",
+          "userRequest": "react-helmet",
+          "loc": "41:19-42"
+        },
+        {
+          "moduleId": 45,
+          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!E:\\git\\react-static-test\\src\\containers\\About.js",
+          "module": "./src/containers/About.js",
+          "moduleName": "./src/containers/About.js",
+          "type": "cjs require",
+          "userRequest": "react-helmet",
+          "loc": "11:19-42"
+        },
+        {
+          "moduleId": 119,
+          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\client\\components\\Redirect.js",
+          "module": "./node_modules/react-static/lib/client/components/Redirect.js",
+          "moduleName": "./node_modules/react-static/lib/client/components/Redirect.js",
+          "type": "cjs require",
+          "userRequest": "react-helmet",
+          "loc": "19:19-42"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3,
+      "source": "exports.__esModule = true;\nexports.Helmet = undefined;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactSideEffect = require(\"react-side-effect\");\n\nvar _reactSideEffect2 = _interopRequireDefault(_reactSideEffect);\n\nvar _reactFastCompare = require(\"react-fast-compare\");\n\nvar _reactFastCompare2 = _interopRequireDefault(_reactFastCompare);\n\nvar _HelmetUtils = require(\"./HelmetUtils.js\");\n\nvar _HelmetConstants = require(\"./HelmetConstants.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Helmet = function Helmet(Component) {\n    var _class, _temp;\n\n    return _temp = _class = function (_React$Component) {\n        _inherits(HelmetWrapper, _React$Component);\n\n        function HelmetWrapper() {\n            _classCallCheck(this, HelmetWrapper);\n\n            return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n        }\n\n        HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {\n            return !(0, _reactFastCompare2.default)(this.props, nextProps);\n        };\n\n        HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {\n            if (!nestedChildren) {\n                return null;\n            }\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.SCRIPT:\n                case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    return {\n                        innerHTML: nestedChildren\n                    };\n\n                case _HelmetConstants.TAG_NAMES.STYLE:\n                    return {\n                        cssText: nestedChildren\n                    };\n            }\n\n            throw new Error(\"<\" + child.type + \" /> elements are self-closing and can not contain children. Refer to our API for more information.\");\n        };\n\n        HelmetWrapper.prototype.flattenArrayTypeChildren = function flattenArrayTypeChildren(_ref) {\n            var _extends2;\n\n            var child = _ref.child,\n                arrayTypeChildren = _ref.arrayTypeChildren,\n                newChildProps = _ref.newChildProps,\n                nestedChildren = _ref.nestedChildren;\n\n            return _extends({}, arrayTypeChildren, (_extends2 = {}, _extends2[child.type] = [].concat(arrayTypeChildren[child.type] || [], [_extends({}, newChildProps, this.mapNestedChildrenToProps(child, nestedChildren))]), _extends2));\n        };\n\n        HelmetWrapper.prototype.mapObjectTypeChildren = function mapObjectTypeChildren(_ref2) {\n            var _extends3, _extends4;\n\n            var child = _ref2.child,\n                newProps = _ref2.newProps,\n                newChildProps = _ref2.newChildProps,\n                nestedChildren = _ref2.nestedChildren;\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.TITLE:\n                    return _extends({}, newProps, (_extends3 = {}, _extends3[child.type] = nestedChildren, _extends3.titleAttributes = _extends({}, newChildProps), _extends3));\n\n                case _HelmetConstants.TAG_NAMES.BODY:\n                    return _extends({}, newProps, {\n                        bodyAttributes: _extends({}, newChildProps)\n                    });\n\n                case _HelmetConstants.TAG_NAMES.HTML:\n                    return _extends({}, newProps, {\n                        htmlAttributes: _extends({}, newChildProps)\n                    });\n            }\n\n            return _extends({}, newProps, (_extends4 = {}, _extends4[child.type] = _extends({}, newChildProps), _extends4));\n        };\n\n        HelmetWrapper.prototype.mapArrayTypeChildrenToProps = function mapArrayTypeChildrenToProps(arrayTypeChildren, newProps) {\n            var newFlattenedProps = _extends({}, newProps);\n\n            Object.keys(arrayTypeChildren).forEach(function (arrayChildName) {\n                var _extends5;\n\n                newFlattenedProps = _extends({}, newFlattenedProps, (_extends5 = {}, _extends5[arrayChildName] = arrayTypeChildren[arrayChildName], _extends5));\n            });\n\n            return newFlattenedProps;\n        };\n\n        HelmetWrapper.prototype.warnOnInvalidChildren = function warnOnInvalidChildren(child, nestedChildren) {\n            if (process.env.NODE_ENV !== \"production\") {\n                if (!_HelmetConstants.VALID_TAG_NAMES.some(function (name) {\n                    return child.type === name;\n                })) {\n                    if (typeof child.type === \"function\") {\n                        return (0, _HelmetUtils.warn)(\"You may be attempting to nest <Helmet> components within each other, which is not allowed. Refer to our API for more information.\");\n                    }\n\n                    return (0, _HelmetUtils.warn)(\"Only elements types \" + _HelmetConstants.VALID_TAG_NAMES.join(\", \") + \" are allowed. Helmet does not support rendering <\" + child.type + \"> elements. Refer to our API for more information.\");\n                }\n\n                if (nestedChildren && typeof nestedChildren !== \"string\" && (!Array.isArray(nestedChildren) || nestedChildren.some(function (nestedChild) {\n                    return typeof nestedChild !== \"string\";\n                }))) {\n                    throw new Error(\"Helmet expects a string as a child of <\" + child.type + \">. Did you forget to wrap your children in braces? ( <\" + child.type + \">{``}</\" + child.type + \"> ) Refer to our API for more information.\");\n                }\n            }\n\n            return true;\n        };\n\n        HelmetWrapper.prototype.mapChildrenToProps = function mapChildrenToProps(children, newProps) {\n            var _this2 = this;\n\n            var arrayTypeChildren = {};\n\n            _react2.default.Children.forEach(children, function (child) {\n                if (!child || !child.props) {\n                    return;\n                }\n\n                var _child$props = child.props,\n                    nestedChildren = _child$props.children,\n                    childProps = _objectWithoutProperties(_child$props, [\"children\"]);\n\n                var newChildProps = (0, _HelmetUtils.convertReactPropstoHtmlAttributes)(childProps);\n\n                _this2.warnOnInvalidChildren(child, nestedChildren);\n\n                switch (child.type) {\n                    case _HelmetConstants.TAG_NAMES.LINK:\n                    case _HelmetConstants.TAG_NAMES.META:\n                    case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    case _HelmetConstants.TAG_NAMES.SCRIPT:\n                    case _HelmetConstants.TAG_NAMES.STYLE:\n                        arrayTypeChildren = _this2.flattenArrayTypeChildren({\n                            child: child,\n                            arrayTypeChildren: arrayTypeChildren,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n\n                    default:\n                        newProps = _this2.mapObjectTypeChildren({\n                            child: child,\n                            newProps: newProps,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n                }\n            });\n\n            newProps = this.mapArrayTypeChildrenToProps(arrayTypeChildren, newProps);\n            return newProps;\n        };\n\n        HelmetWrapper.prototype.render = function render() {\n            var _props = this.props,\n                children = _props.children,\n                props = _objectWithoutProperties(_props, [\"children\"]);\n\n            var newProps = _extends({}, props);\n\n            if (children) {\n                newProps = this.mapChildrenToProps(children, newProps);\n            }\n\n            return _react2.default.createElement(Component, newProps);\n        };\n\n        _createClass(HelmetWrapper, null, [{\n            key: \"canUseDOM\",\n\n\n            // Component.peek comes from react-side-effect:\n            // For testing, you may use a static peek() method available on the returned component.\n            // It lets you get the current state without resetting the mounted instance stack.\n            // Don’t use it for anything other than testing.\n\n            /**\n             * @param {Object} base: {\"target\": \"_blank\", \"href\": \"http://mysite.com/\"}\n             * @param {Object} bodyAttributes: {\"className\": \"root\"}\n             * @param {String} defaultTitle: \"Default Title\"\n             * @param {Boolean} defer: true\n             * @param {Boolean} encodeSpecialCharacters: true\n             * @param {Object} htmlAttributes: {\"lang\": \"en\", \"amp\": undefined}\n             * @param {Array} link: [{\"rel\": \"canonical\", \"href\": \"http://mysite.com/example\"}]\n             * @param {Array} meta: [{\"name\": \"description\", \"content\": \"Test description\"}]\n             * @param {Array} noscript: [{\"innerHTML\": \"<img src='http://mysite.com/js/test.js'\"}]\n             * @param {Function} onChangeClientState: \"(newState) => console.log(newState)\"\n             * @param {Array} script: [{\"type\": \"text/javascript\", \"src\": \"http://mysite.com/js/test.js\"}]\n             * @param {Array} style: [{\"type\": \"text/css\", \"cssText\": \"div { display: block; color: blue; }\"}]\n             * @param {String} title: \"Title\"\n             * @param {Object} titleAttributes: {\"itemprop\": \"name\"}\n             * @param {String} titleTemplate: \"MySite.com - %s\"\n             */\n            set: function set(canUseDOM) {\n                Component.canUseDOM = canUseDOM;\n            }\n        }]);\n\n        return HelmetWrapper;\n    }(_react2.default.Component), _class.propTypes = {\n        base: _propTypes2.default.object,\n        bodyAttributes: _propTypes2.default.object,\n        children: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.node), _propTypes2.default.node]),\n        defaultTitle: _propTypes2.default.string,\n        defer: _propTypes2.default.bool,\n        encodeSpecialCharacters: _propTypes2.default.bool,\n        htmlAttributes: _propTypes2.default.object,\n        link: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        meta: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        noscript: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        onChangeClientState: _propTypes2.default.func,\n        script: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        style: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        title: _propTypes2.default.string,\n        titleAttributes: _propTypes2.default.object,\n        titleTemplate: _propTypes2.default.string\n    }, _class.defaultProps = {\n        defer: true,\n        encodeSpecialCharacters: true\n    }, _class.peek = Component.peek, _class.rewind = function () {\n        var mappedState = Component.rewind();\n        if (!mappedState) {\n            // provide fallback if mappedState is undefined\n            mappedState = (0, _HelmetUtils.mapStateOnServer)({\n                baseTag: [],\n                bodyAttributes: {},\n                encodeSpecialCharacters: true,\n                htmlAttributes: {},\n                linkTags: [],\n                metaTags: [],\n                noscriptTags: [],\n                scriptTags: [],\n                styleTags: [],\n                title: \"\",\n                titleAttributes: {}\n            });\n        }\n\n        return mappedState;\n    }, _temp;\n};\n\nvar NullComponent = function NullComponent() {\n    return null;\n};\n\nvar HelmetSideEffects = (0, _reactSideEffect2.default)(_HelmetUtils.reducePropsToState, _HelmetUtils.handleClientStateChange, _HelmetUtils.mapStateOnServer)(NullComponent);\n\nvar HelmetExport = Helmet(HelmetSideEffects);\nHelmetExport.renderStatic = HelmetExport.rewind;\n\nexports.Helmet = HelmetExport;\nexports.default = HelmetExport;"
+    },
+    {
+      "id": 23,
       "identifier": "E:\\git\\react-static-test\\node_modules\\resolve-pathname\\index.js",
       "name": "./node_modules/resolve-pathname/index.js",
       "index": 20,
@@ -9368,7 +9433,7 @@
       "source": "function isAbsolute(pathname) {\n  return pathname.charAt(0) === '/';\n}\n\n// About 1.5x faster than the two-arg version of Array#splice()\nfunction spliceOne(list, index) {\n  for (var i = index, k = i + 1, n = list.length; k < n; i += 1, k += 1) {\n    list[i] = list[k];\n  }\n\n  list.pop();\n}\n\n// This implementation is based heavily on node's url.parse\nfunction resolvePathname(to) {\n  var from = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';\n\n  var toParts = to && to.split('/') || [];\n  var fromParts = from && from.split('/') || [];\n\n  var isToAbs = to && isAbsolute(to);\n  var isFromAbs = from && isAbsolute(from);\n  var mustEndAbs = isToAbs || isFromAbs;\n\n  if (to && isAbsolute(to)) {\n    // to is absolute\n    fromParts = toParts;\n  } else if (toParts.length) {\n    // to is relative, drop the filename\n    fromParts.pop();\n    fromParts = fromParts.concat(toParts);\n  }\n\n  if (!fromParts.length) return '/';\n\n  var hasTrailingSlash = void 0;\n  if (fromParts.length) {\n    var last = fromParts[fromParts.length - 1];\n    hasTrailingSlash = last === '.' || last === '..' || last === '';\n  } else {\n    hasTrailingSlash = false;\n  }\n\n  var up = 0;\n  for (var i = fromParts.length; i >= 0; i--) {\n    var part = fromParts[i];\n\n    if (part === '.') {\n      spliceOne(fromParts, i);\n    } else if (part === '..') {\n      spliceOne(fromParts, i);\n      up++;\n    } else if (up) {\n      spliceOne(fromParts, i);\n      up--;\n    }\n  }\n\n  if (!mustEndAbs) for (; up--; up) {\n    fromParts.unshift('..');\n  }if (mustEndAbs && fromParts[0] !== '' && (!fromParts[0] || !isAbsolute(fromParts[0]))) fromParts.unshift('');\n\n  var result = fromParts.join('/');\n\n  if (hasTrailingSlash && result.substr(-1) !== '/') result += '/';\n\n  return result;\n}\n\nexport default resolvePathname;"
     },
     {
-      "id": 23,
+      "id": 24,
       "identifier": "E:\\git\\react-static-test\\node_modules\\value-equal\\index.js",
       "name": "./node_modules/value-equal/index.js",
       "index": 21,
@@ -9417,7 +9482,7 @@
       "source": "var _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nfunction valueEqual(a, b) {\n  if (a === b) return true;\n\n  if (a == null || b == null) return false;\n\n  if (Array.isArray(a)) {\n    return Array.isArray(b) && a.length === b.length && a.every(function (item, index) {\n      return valueEqual(item, b[index]);\n    });\n  }\n\n  var aType = typeof a === 'undefined' ? 'undefined' : _typeof(a);\n  var bType = typeof b === 'undefined' ? 'undefined' : _typeof(b);\n\n  if (aType !== bType) return false;\n\n  if (aType === 'object') {\n    var aValue = a.valueOf();\n    var bValue = b.valueOf();\n\n    if (aValue !== a || bValue !== b) return valueEqual(aValue, bValue);\n\n    var aKeys = Object.keys(a);\n    var bKeys = Object.keys(b);\n\n    if (aKeys.length !== bKeys.length) return false;\n\n    return aKeys.every(function (key) {\n      return valueEqual(a[key], b[key]);\n    });\n  }\n\n  return false;\n}\n\nexport default valueEqual;"
     },
     {
-      "id": 24,
+      "id": 25,
       "identifier": "E:\\git\\react-static-test\\node_modules\\tiny-warning\\dist\\tiny-warning.esm.js",
       "name": "./node_modules/tiny-warning/dist/tiny-warning.esm.js",
       "index": 22,
@@ -9466,7 +9531,7 @@
       "source": "var isProduction = process.env.NODE_ENV === 'production';\nfunction warning(condition, message) {\n  if (!isProduction) {\n    if (condition) {\n      return;\n    }\n\n    var text = \"Warning: \" + message;\n\n    if (typeof console !== 'undefined') {\n      console.warn(text);\n    }\n\n    try {\n      throw Error(text);\n    } catch (x) {}\n  }\n}\n\nexport default warning;\n"
     },
     {
-      "id": 25,
+      "id": 26,
       "identifier": "E:\\git\\react-static-test\\node_modules\\tiny-invariant\\dist\\tiny-invariant.esm.js",
       "name": "./node_modules/tiny-invariant/dist/tiny-invariant.esm.js",
       "index": 23,
@@ -9515,7 +9580,7 @@
       "source": "var isProduction = process.env.NODE_ENV === 'production';\nvar prefix = 'Invariant failed';\nfunction invariant(condition, message) {\n  if (condition) {\n    return;\n  }\n\n  if (isProduction) {\n    throw new Error(prefix);\n  } else {\n    throw new Error(prefix + \": \" + (message || ''));\n  }\n}\n\nexport default invariant;\n"
     },
     {
-      "id": 26,
+      "id": 27,
       "identifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Link.js",
       "name": "./node_modules/react-router-dom/es/Link.js",
       "index": 28,
@@ -9566,7 +9631,7 @@
       "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport React from \"react\";\nimport PropTypes from \"prop-types\";\nimport invariant from \"invariant\";\nimport { createLocation } from \"history\";\n\nvar isModifiedEvent = function isModifiedEvent(event) {\n  return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);\n};\n\n/**\n * The public API for rendering a history-aware <a>.\n */\n\nvar Link = function (_React$Component) {\n  _inherits(Link, _React$Component);\n\n  function Link() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Link);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.handleClick = function (event) {\n      if (_this.props.onClick) _this.props.onClick(event);\n\n      if (!event.defaultPrevented && // onClick prevented default\n      event.button === 0 && // ignore everything but left clicks\n      !_this.props.target && // let browser handle \"target=_blank\" etc.\n      !isModifiedEvent(event) // ignore clicks with modifier keys\n      ) {\n          event.preventDefault();\n\n          var history = _this.context.router.history;\n          var _this$props = _this.props,\n              replace = _this$props.replace,\n              to = _this$props.to;\n\n\n          if (replace) {\n            history.replace(to);\n          } else {\n            history.push(to);\n          }\n        }\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Link.prototype.render = function render() {\n    var _props = this.props,\n        replace = _props.replace,\n        to = _props.to,\n        innerRef = _props.innerRef,\n        props = _objectWithoutProperties(_props, [\"replace\", \"to\", \"innerRef\"]); // eslint-disable-line no-unused-vars\n\n    invariant(this.context.router, \"You should not use <Link> outside a <Router>\");\n\n    invariant(to !== undefined, 'You must specify the \"to\" property');\n\n    var history = this.context.router.history;\n\n    var location = typeof to === \"string\" ? createLocation(to, null, null, history.location) : to;\n\n    var href = history.createHref(location);\n    return React.createElement(\"a\", _extends({}, props, { onClick: this.handleClick, href: href, ref: innerRef }));\n  };\n\n  return Link;\n}(React.Component);\n\nLink.propTypes = {\n  onClick: PropTypes.func,\n  target: PropTypes.string,\n  replace: PropTypes.bool,\n  to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,\n  innerRef: PropTypes.oneOfType([PropTypes.string, PropTypes.func])\n};\nLink.defaultProps = {\n  replace: false\n};\nLink.contextTypes = {\n  router: PropTypes.shape({\n    history: PropTypes.shape({\n      push: PropTypes.func.isRequired,\n      replace: PropTypes.func.isRequired,\n      createHref: PropTypes.func.isRequired\n    }).isRequired\n  }).isRequired\n};\n\n\nexport default Link;"
     },
     {
-      "id": 27,
+      "id": 28,
       "identifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
       "name": "./node_modules/react-router-dom/es/Route.js",
       "index": 32,
@@ -9617,7 +9682,7 @@
       "source": "// Written in this round about way for babel-transform-imports\nimport Route from \"react-router/es/Route\";\n\nexport default Route;"
     },
     {
-      "id": 28,
+      "id": 29,
       "identifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\Route.js",
       "name": "./node_modules/react-router/es/Route.js",
       "index": 33,
@@ -9632,14 +9697,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
-      "issuerId": 27,
+      "issuerId": 28,
       "issuerName": "./node_modules/react-router-dom/es/Route.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 27,
+          "moduleId": 28,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router-dom\\es\\Route.js",
           "module": "./node_modules/react-router-dom/es/Route.js",
           "moduleName": "./node_modules/react-router-dom/es/Route.js",
@@ -9668,7 +9733,7 @@
       "source": "var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nimport warning from \"warning\";\nimport invariant from \"invariant\";\nimport React from \"react\";\nimport PropTypes from \"prop-types\";\nimport matchPath from \"./matchPath\";\n\nvar isEmptyChildren = function isEmptyChildren(children) {\n  return React.Children.count(children) === 0;\n};\n\n/**\n * The public API for matching a single path and rendering.\n */\n\nvar Route = function (_React$Component) {\n  _inherits(Route, _React$Component);\n\n  function Route() {\n    var _temp, _this, _ret;\n\n    _classCallCheck(this, Route);\n\n    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {\n      args[_key] = arguments[_key];\n    }\n\n    return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {\n      match: _this.computeMatch(_this.props, _this.context.router)\n    }, _temp), _possibleConstructorReturn(_this, _ret);\n  }\n\n  Route.prototype.getChildContext = function getChildContext() {\n    return {\n      router: _extends({}, this.context.router, {\n        route: {\n          location: this.props.location || this.context.router.route.location,\n          match: this.state.match\n        }\n      })\n    };\n  };\n\n  Route.prototype.computeMatch = function computeMatch(_ref, router) {\n    var computedMatch = _ref.computedMatch,\n        location = _ref.location,\n        path = _ref.path,\n        strict = _ref.strict,\n        exact = _ref.exact,\n        sensitive = _ref.sensitive;\n\n    if (computedMatch) return computedMatch; // <Switch> already computed the match for us\n\n    invariant(router, \"You should not use <Route> or withRouter() outside a <Router>\");\n\n    var route = router.route;\n\n    var pathname = (location || route.location).pathname;\n\n    return matchPath(pathname, { path: path, strict: strict, exact: exact, sensitive: sensitive }, route.match);\n  };\n\n  Route.prototype.componentWillMount = function componentWillMount() {\n    warning(!(this.props.component && this.props.render), \"You should not use <Route component> and <Route render> in the same route; <Route render> will be ignored\");\n\n    warning(!(this.props.component && this.props.children && !isEmptyChildren(this.props.children)), \"You should not use <Route component> and <Route children> in the same route; <Route children> will be ignored\");\n\n    warning(!(this.props.render && this.props.children && !isEmptyChildren(this.props.children)), \"You should not use <Route render> and <Route children> in the same route; <Route children> will be ignored\");\n  };\n\n  Route.prototype.componentWillReceiveProps = function componentWillReceiveProps(nextProps, nextContext) {\n    warning(!(nextProps.location && !this.props.location), '<Route> elements should not change from uncontrolled to controlled (or vice versa). You initially used no \"location\" prop and then provided one on a subsequent render.');\n\n    warning(!(!nextProps.location && this.props.location), '<Route> elements should not change from controlled to uncontrolled (or vice versa). You provided a \"location\" prop initially but omitted it on a subsequent render.');\n\n    this.setState({\n      match: this.computeMatch(nextProps, nextContext.router)\n    });\n  };\n\n  Route.prototype.render = function render() {\n    var match = this.state.match;\n    var _props = this.props,\n        children = _props.children,\n        component = _props.component,\n        render = _props.render;\n    var _context$router = this.context.router,\n        history = _context$router.history,\n        route = _context$router.route,\n        staticContext = _context$router.staticContext;\n\n    var location = this.props.location || route.location;\n    var props = { match: match, location: location, history: history, staticContext: staticContext };\n\n    if (component) return match ? React.createElement(component, props) : null;\n\n    if (render) return match ? render(props) : null;\n\n    if (typeof children === \"function\") return children(props);\n\n    if (children && !isEmptyChildren(children)) return React.Children.only(children);\n\n    return null;\n  };\n\n  return Route;\n}(React.Component);\n\nRoute.propTypes = {\n  computedMatch: PropTypes.object, // private, from <Switch>\n  path: PropTypes.string,\n  exact: PropTypes.bool,\n  strict: PropTypes.bool,\n  sensitive: PropTypes.bool,\n  component: PropTypes.func,\n  render: PropTypes.func,\n  children: PropTypes.oneOfType([PropTypes.func, PropTypes.node]),\n  location: PropTypes.object\n};\nRoute.contextTypes = {\n  router: PropTypes.shape({\n    history: PropTypes.object.isRequired,\n    route: PropTypes.object.isRequired,\n    staticContext: PropTypes.object\n  })\n};\nRoute.childContextTypes = {\n  router: PropTypes.object.isRequired\n};\n\n\nexport default Route;"
     },
     {
-      "id": 29,
+      "id": 30,
       "identifier": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
       "name": "./node_modules/path-to-regexp/index.js",
       "index": 35,
@@ -9682,9 +9747,9 @@
         5
       ],
       "assets": [],
-      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
-      "issuerId": 30,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\matchPath.js",
+      "issuerId": 16,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9699,7 +9764,7 @@
           "loc": "1:0-42"
         },
         {
-          "moduleId": 30,
+          "moduleId": 31,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
           "module": "./node_modules/react-router/es/generatePath.js",
           "moduleName": "./node_modules/react-router/es/generatePath.js",
@@ -9717,7 +9782,7 @@
       "source": "var isarray = require('isarray')\n\n/**\n * Expose `pathToRegexp`.\n */\nmodule.exports = pathToRegexp\nmodule.exports.parse = parse\nmodule.exports.compile = compile\nmodule.exports.tokensToFunction = tokensToFunction\nmodule.exports.tokensToRegExp = tokensToRegExp\n\n/**\n * The main path matching regexp utility.\n *\n * @type {RegExp}\n */\nvar PATH_REGEXP = new RegExp([\n  // Match escaped characters that would otherwise appear in future matches.\n  // This allows the user to escape special characters that won't transform.\n  '(\\\\\\\\.)',\n  // Match Express-style parameters and un-named parameters with a prefix\n  // and optional suffixes. Matches appear as:\n  //\n  // \"/:test(\\\\d+)?\" => [\"/\", \"test\", \"\\d+\", undefined, \"?\", undefined]\n  // \"/route(\\\\d+)\"  => [undefined, undefined, undefined, \"\\d+\", undefined, undefined]\n  // \"/*\"            => [\"/\", undefined, undefined, undefined, undefined, \"*\"]\n  '([\\\\/.])?(?:(?:\\\\:(\\\\w+)(?:\\\\(((?:\\\\\\\\.|[^\\\\\\\\()])+)\\\\))?|\\\\(((?:\\\\\\\\.|[^\\\\\\\\()])+)\\\\))([+*?])?|(\\\\*))'\n].join('|'), 'g')\n\n/**\n * Parse a string for the raw tokens.\n *\n * @param  {string}  str\n * @param  {Object=} options\n * @return {!Array}\n */\nfunction parse (str, options) {\n  var tokens = []\n  var key = 0\n  var index = 0\n  var path = ''\n  var defaultDelimiter = options && options.delimiter || '/'\n  var res\n\n  while ((res = PATH_REGEXP.exec(str)) != null) {\n    var m = res[0]\n    var escaped = res[1]\n    var offset = res.index\n    path += str.slice(index, offset)\n    index = offset + m.length\n\n    // Ignore already escaped sequences.\n    if (escaped) {\n      path += escaped[1]\n      continue\n    }\n\n    var next = str[index]\n    var prefix = res[2]\n    var name = res[3]\n    var capture = res[4]\n    var group = res[5]\n    var modifier = res[6]\n    var asterisk = res[7]\n\n    // Push the current path onto the tokens.\n    if (path) {\n      tokens.push(path)\n      path = ''\n    }\n\n    var partial = prefix != null && next != null && next !== prefix\n    var repeat = modifier === '+' || modifier === '*'\n    var optional = modifier === '?' || modifier === '*'\n    var delimiter = res[2] || defaultDelimiter\n    var pattern = capture || group\n\n    tokens.push({\n      name: name || key++,\n      prefix: prefix || '',\n      delimiter: delimiter,\n      optional: optional,\n      repeat: repeat,\n      partial: partial,\n      asterisk: !!asterisk,\n      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')\n    })\n  }\n\n  // Match any characters still remaining.\n  if (index < str.length) {\n    path += str.substr(index)\n  }\n\n  // If the path exists, push it onto the end.\n  if (path) {\n    tokens.push(path)\n  }\n\n  return tokens\n}\n\n/**\n * Compile a string to a template function for the path.\n *\n * @param  {string}             str\n * @param  {Object=}            options\n * @return {!function(Object=, Object=)}\n */\nfunction compile (str, options) {\n  return tokensToFunction(parse(str, options))\n}\n\n/**\n * Prettier encoding of URI path segments.\n *\n * @param  {string}\n * @return {string}\n */\nfunction encodeURIComponentPretty (str) {\n  return encodeURI(str).replace(/[\\/?#]/g, function (c) {\n    return '%' + c.charCodeAt(0).toString(16).toUpperCase()\n  })\n}\n\n/**\n * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.\n *\n * @param  {string}\n * @return {string}\n */\nfunction encodeAsterisk (str) {\n  return encodeURI(str).replace(/[?#]/g, function (c) {\n    return '%' + c.charCodeAt(0).toString(16).toUpperCase()\n  })\n}\n\n/**\n * Expose a method for transforming tokens into the path function.\n */\nfunction tokensToFunction (tokens) {\n  // Compile all the tokens into regexps.\n  var matches = new Array(tokens.length)\n\n  // Compile all the patterns before compilation.\n  for (var i = 0; i < tokens.length; i++) {\n    if (typeof tokens[i] === 'object') {\n      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$')\n    }\n  }\n\n  return function (obj, opts) {\n    var path = ''\n    var data = obj || {}\n    var options = opts || {}\n    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent\n\n    for (var i = 0; i < tokens.length; i++) {\n      var token = tokens[i]\n\n      if (typeof token === 'string') {\n        path += token\n\n        continue\n      }\n\n      var value = data[token.name]\n      var segment\n\n      if (value == null) {\n        if (token.optional) {\n          // Prepend partial segment prefixes.\n          if (token.partial) {\n            path += token.prefix\n          }\n\n          continue\n        } else {\n          throw new TypeError('Expected \"' + token.name + '\" to be defined')\n        }\n      }\n\n      if (isarray(value)) {\n        if (!token.repeat) {\n          throw new TypeError('Expected \"' + token.name + '\" to not repeat, but received `' + JSON.stringify(value) + '`')\n        }\n\n        if (value.length === 0) {\n          if (token.optional) {\n            continue\n          } else {\n            throw new TypeError('Expected \"' + token.name + '\" to not be empty')\n          }\n        }\n\n        for (var j = 0; j < value.length; j++) {\n          segment = encode(value[j])\n\n          if (!matches[i].test(segment)) {\n            throw new TypeError('Expected all \"' + token.name + '\" to match \"' + token.pattern + '\", but received `' + JSON.stringify(segment) + '`')\n          }\n\n          path += (j === 0 ? token.prefix : token.delimiter) + segment\n        }\n\n        continue\n      }\n\n      segment = token.asterisk ? encodeAsterisk(value) : encode(value)\n\n      if (!matches[i].test(segment)) {\n        throw new TypeError('Expected \"' + token.name + '\" to match \"' + token.pattern + '\", but received \"' + segment + '\"')\n      }\n\n      path += token.prefix + segment\n    }\n\n    return path\n  }\n}\n\n/**\n * Escape a regular expression string.\n *\n * @param  {string} str\n * @return {string}\n */\nfunction escapeString (str) {\n  return str.replace(/([.+*?=^!:${}()[\\]|\\/\\\\])/g, '\\\\$1')\n}\n\n/**\n * Escape the capturing group by escaping special characters and meaning.\n *\n * @param  {string} group\n * @return {string}\n */\nfunction escapeGroup (group) {\n  return group.replace(/([=!:$\\/()])/g, '\\\\$1')\n}\n\n/**\n * Attach the keys as a property of the regexp.\n *\n * @param  {!RegExp} re\n * @param  {Array}   keys\n * @return {!RegExp}\n */\nfunction attachKeys (re, keys) {\n  re.keys = keys\n  return re\n}\n\n/**\n * Get the flags for a regexp from the options.\n *\n * @param  {Object} options\n * @return {string}\n */\nfunction flags (options) {\n  return options.sensitive ? '' : 'i'\n}\n\n/**\n * Pull out keys from a regexp.\n *\n * @param  {!RegExp} path\n * @param  {!Array}  keys\n * @return {!RegExp}\n */\nfunction regexpToRegexp (path, keys) {\n  // Use a negative lookahead to match only capturing groups.\n  var groups = path.source.match(/\\((?!\\?)/g)\n\n  if (groups) {\n    for (var i = 0; i < groups.length; i++) {\n      keys.push({\n        name: i,\n        prefix: null,\n        delimiter: null,\n        optional: false,\n        repeat: false,\n        partial: false,\n        asterisk: false,\n        pattern: null\n      })\n    }\n  }\n\n  return attachKeys(path, keys)\n}\n\n/**\n * Transform an array into a regexp.\n *\n * @param  {!Array}  path\n * @param  {Array}   keys\n * @param  {!Object} options\n * @return {!RegExp}\n */\nfunction arrayToRegexp (path, keys, options) {\n  var parts = []\n\n  for (var i = 0; i < path.length; i++) {\n    parts.push(pathToRegexp(path[i], keys, options).source)\n  }\n\n  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options))\n\n  return attachKeys(regexp, keys)\n}\n\n/**\n * Create a path regexp from string input.\n *\n * @param  {string}  path\n * @param  {!Array}  keys\n * @param  {!Object} options\n * @return {!RegExp}\n */\nfunction stringToRegexp (path, keys, options) {\n  return tokensToRegExp(parse(path, options), keys, options)\n}\n\n/**\n * Expose a function for taking tokens and returning a RegExp.\n *\n * @param  {!Array}          tokens\n * @param  {(Array|Object)=} keys\n * @param  {Object=}         options\n * @return {!RegExp}\n */\nfunction tokensToRegExp (tokens, keys, options) {\n  if (!isarray(keys)) {\n    options = /** @type {!Object} */ (keys || options)\n    keys = []\n  }\n\n  options = options || {}\n\n  var strict = options.strict\n  var end = options.end !== false\n  var route = ''\n\n  // Iterate over the tokens and create our regexp string.\n  for (var i = 0; i < tokens.length; i++) {\n    var token = tokens[i]\n\n    if (typeof token === 'string') {\n      route += escapeString(token)\n    } else {\n      var prefix = escapeString(token.prefix)\n      var capture = '(?:' + token.pattern + ')'\n\n      keys.push(token)\n\n      if (token.repeat) {\n        capture += '(?:' + prefix + capture + ')*'\n      }\n\n      if (token.optional) {\n        if (!token.partial) {\n          capture = '(?:' + prefix + '(' + capture + '))?'\n        } else {\n          capture = prefix + '(' + capture + ')?'\n        }\n      } else {\n        capture = prefix + '(' + capture + ')'\n      }\n\n      route += capture\n    }\n  }\n\n  var delimiter = escapeString(options.delimiter || '/')\n  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter\n\n  // In non-strict mode we allow a slash at the end of match. If the path to\n  // match already ends with a slash, we remove it for consistency. The slash\n  // is valid at the end of a path match, not in the middle. This is important\n  // in non-ending mode, where \"/test/\" shouldn't match \"/test//route\".\n  if (!strict) {\n    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?'\n  }\n\n  if (end) {\n    route += '$'\n  } else {\n    // In non-ending mode, we need the capturing groups to match as much as\n    // possible by using a positive lookahead to the end or next path segment.\n    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)'\n  }\n\n  return attachKeys(new RegExp('^' + route, flags(options)), keys)\n}\n\n/**\n * Normalize the given path string, returning a regular expression.\n *\n * An empty array can be passed in for the keys, which will hold the\n * placeholder key descriptions. For example, using `/user/:id`, `keys` will\n * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.\n *\n * @param  {(string|RegExp|Array)} path\n * @param  {(Array|Object)=}       keys\n * @param  {Object=}               options\n * @return {!RegExp}\n */\nfunction pathToRegexp (path, keys, options) {\n  if (!isarray(keys)) {\n    options = /** @type {!Object} */ (keys || options)\n    keys = []\n  }\n\n  options = options || {}\n\n  if (path instanceof RegExp) {\n    return regexpToRegexp(path, /** @type {!Array} */ (keys))\n  }\n\n  if (isarray(path)) {\n    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)\n  }\n\n  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)\n}\n"
     },
     {
-      "id": 30,
+      "id": 31,
       "identifier": "E:\\git\\react-static-test\\node_modules\\react-router\\es\\generatePath.js",
       "name": "./node_modules/react-router/es/generatePath.js",
       "index": 41,
@@ -9768,53 +9833,6 @@
       "source": "import pathToRegexp from \"path-to-regexp\";\n\nvar patternCache = {};\nvar cacheLimit = 10000;\nvar cacheCount = 0;\n\nvar compileGenerator = function compileGenerator(pattern) {\n  var cacheKey = pattern;\n  var cache = patternCache[cacheKey] || (patternCache[cacheKey] = {});\n\n  if (cache[pattern]) return cache[pattern];\n\n  var compiledGenerator = pathToRegexp.compile(pattern);\n\n  if (cacheCount < cacheLimit) {\n    cache[pattern] = compiledGenerator;\n    cacheCount++;\n  }\n\n  return compiledGenerator;\n};\n\n/**\n * Public API for generating a URL pathname from a pattern and parameters.\n */\nvar generatePath = function generatePath() {\n  var pattern = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : \"/\";\n  var params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n\n  if (pattern === \"/\") {\n    return pattern;\n  }\n  var generator = compileGenerator(pattern);\n  return generator(params, { pretty: true });\n};\n\nexport default generatePath;"
     },
     {
-      "id": 31,
-      "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-      "name": "./node_modules/react-helmet/lib/Helmet.js",
-      "index": 51,
-      "index2": 54,
-      "size": 13995,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        5
-      ],
-      "assets": [],
-      "issuer": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
-      "issuerId": 21,
-      "issuerName": "./node_modules/react-static/lib/index.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 21,
-          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\index.js",
-          "module": "./node_modules/react-static/lib/index.js",
-          "moduleName": "./node_modules/react-static/lib/index.js",
-          "type": "cjs require",
-          "userRequest": "react-helmet",
-          "loc": "41:19-42"
-        },
-        {
-          "moduleId": 119,
-          "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-static\\lib\\client\\components\\Redirect.js",
-          "module": "./node_modules/react-static/lib/client/components/Redirect.js",
-          "moduleName": "./node_modules/react-static/lib/client/components/Redirect.js",
-          "type": "cjs require",
-          "userRequest": "react-helmet",
-          "loc": "19:19-42"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [],
-      "depth": 3,
-      "source": "exports.__esModule = true;\nexports.Helmet = undefined;\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = require(\"react\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require(\"prop-types\");\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactSideEffect = require(\"react-side-effect\");\n\nvar _reactSideEffect2 = _interopRequireDefault(_reactSideEffect);\n\nvar _reactFastCompare = require(\"react-fast-compare\");\n\nvar _reactFastCompare2 = _interopRequireDefault(_reactFastCompare);\n\nvar _HelmetUtils = require(\"./HelmetUtils.js\");\n\nvar _HelmetConstants = require(\"./HelmetConstants.js\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar Helmet = function Helmet(Component) {\n    var _class, _temp;\n\n    return _temp = _class = function (_React$Component) {\n        _inherits(HelmetWrapper, _React$Component);\n\n        function HelmetWrapper() {\n            _classCallCheck(this, HelmetWrapper);\n\n            return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));\n        }\n\n        HelmetWrapper.prototype.shouldComponentUpdate = function shouldComponentUpdate(nextProps) {\n            return !(0, _reactFastCompare2.default)(this.props, nextProps);\n        };\n\n        HelmetWrapper.prototype.mapNestedChildrenToProps = function mapNestedChildrenToProps(child, nestedChildren) {\n            if (!nestedChildren) {\n                return null;\n            }\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.SCRIPT:\n                case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    return {\n                        innerHTML: nestedChildren\n                    };\n\n                case _HelmetConstants.TAG_NAMES.STYLE:\n                    return {\n                        cssText: nestedChildren\n                    };\n            }\n\n            throw new Error(\"<\" + child.type + \" /> elements are self-closing and can not contain children. Refer to our API for more information.\");\n        };\n\n        HelmetWrapper.prototype.flattenArrayTypeChildren = function flattenArrayTypeChildren(_ref) {\n            var _extends2;\n\n            var child = _ref.child,\n                arrayTypeChildren = _ref.arrayTypeChildren,\n                newChildProps = _ref.newChildProps,\n                nestedChildren = _ref.nestedChildren;\n\n            return _extends({}, arrayTypeChildren, (_extends2 = {}, _extends2[child.type] = [].concat(arrayTypeChildren[child.type] || [], [_extends({}, newChildProps, this.mapNestedChildrenToProps(child, nestedChildren))]), _extends2));\n        };\n\n        HelmetWrapper.prototype.mapObjectTypeChildren = function mapObjectTypeChildren(_ref2) {\n            var _extends3, _extends4;\n\n            var child = _ref2.child,\n                newProps = _ref2.newProps,\n                newChildProps = _ref2.newChildProps,\n                nestedChildren = _ref2.nestedChildren;\n\n            switch (child.type) {\n                case _HelmetConstants.TAG_NAMES.TITLE:\n                    return _extends({}, newProps, (_extends3 = {}, _extends3[child.type] = nestedChildren, _extends3.titleAttributes = _extends({}, newChildProps), _extends3));\n\n                case _HelmetConstants.TAG_NAMES.BODY:\n                    return _extends({}, newProps, {\n                        bodyAttributes: _extends({}, newChildProps)\n                    });\n\n                case _HelmetConstants.TAG_NAMES.HTML:\n                    return _extends({}, newProps, {\n                        htmlAttributes: _extends({}, newChildProps)\n                    });\n            }\n\n            return _extends({}, newProps, (_extends4 = {}, _extends4[child.type] = _extends({}, newChildProps), _extends4));\n        };\n\n        HelmetWrapper.prototype.mapArrayTypeChildrenToProps = function mapArrayTypeChildrenToProps(arrayTypeChildren, newProps) {\n            var newFlattenedProps = _extends({}, newProps);\n\n            Object.keys(arrayTypeChildren).forEach(function (arrayChildName) {\n                var _extends5;\n\n                newFlattenedProps = _extends({}, newFlattenedProps, (_extends5 = {}, _extends5[arrayChildName] = arrayTypeChildren[arrayChildName], _extends5));\n            });\n\n            return newFlattenedProps;\n        };\n\n        HelmetWrapper.prototype.warnOnInvalidChildren = function warnOnInvalidChildren(child, nestedChildren) {\n            if (process.env.NODE_ENV !== \"production\") {\n                if (!_HelmetConstants.VALID_TAG_NAMES.some(function (name) {\n                    return child.type === name;\n                })) {\n                    if (typeof child.type === \"function\") {\n                        return (0, _HelmetUtils.warn)(\"You may be attempting to nest <Helmet> components within each other, which is not allowed. Refer to our API for more information.\");\n                    }\n\n                    return (0, _HelmetUtils.warn)(\"Only elements types \" + _HelmetConstants.VALID_TAG_NAMES.join(\", \") + \" are allowed. Helmet does not support rendering <\" + child.type + \"> elements. Refer to our API for more information.\");\n                }\n\n                if (nestedChildren && typeof nestedChildren !== \"string\" && (!Array.isArray(nestedChildren) || nestedChildren.some(function (nestedChild) {\n                    return typeof nestedChild !== \"string\";\n                }))) {\n                    throw new Error(\"Helmet expects a string as a child of <\" + child.type + \">. Did you forget to wrap your children in braces? ( <\" + child.type + \">{``}</\" + child.type + \"> ) Refer to our API for more information.\");\n                }\n            }\n\n            return true;\n        };\n\n        HelmetWrapper.prototype.mapChildrenToProps = function mapChildrenToProps(children, newProps) {\n            var _this2 = this;\n\n            var arrayTypeChildren = {};\n\n            _react2.default.Children.forEach(children, function (child) {\n                if (!child || !child.props) {\n                    return;\n                }\n\n                var _child$props = child.props,\n                    nestedChildren = _child$props.children,\n                    childProps = _objectWithoutProperties(_child$props, [\"children\"]);\n\n                var newChildProps = (0, _HelmetUtils.convertReactPropstoHtmlAttributes)(childProps);\n\n                _this2.warnOnInvalidChildren(child, nestedChildren);\n\n                switch (child.type) {\n                    case _HelmetConstants.TAG_NAMES.LINK:\n                    case _HelmetConstants.TAG_NAMES.META:\n                    case _HelmetConstants.TAG_NAMES.NOSCRIPT:\n                    case _HelmetConstants.TAG_NAMES.SCRIPT:\n                    case _HelmetConstants.TAG_NAMES.STYLE:\n                        arrayTypeChildren = _this2.flattenArrayTypeChildren({\n                            child: child,\n                            arrayTypeChildren: arrayTypeChildren,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n\n                    default:\n                        newProps = _this2.mapObjectTypeChildren({\n                            child: child,\n                            newProps: newProps,\n                            newChildProps: newChildProps,\n                            nestedChildren: nestedChildren\n                        });\n                        break;\n                }\n            });\n\n            newProps = this.mapArrayTypeChildrenToProps(arrayTypeChildren, newProps);\n            return newProps;\n        };\n\n        HelmetWrapper.prototype.render = function render() {\n            var _props = this.props,\n                children = _props.children,\n                props = _objectWithoutProperties(_props, [\"children\"]);\n\n            var newProps = _extends({}, props);\n\n            if (children) {\n                newProps = this.mapChildrenToProps(children, newProps);\n            }\n\n            return _react2.default.createElement(Component, newProps);\n        };\n\n        _createClass(HelmetWrapper, null, [{\n            key: \"canUseDOM\",\n\n\n            // Component.peek comes from react-side-effect:\n            // For testing, you may use a static peek() method available on the returned component.\n            // It lets you get the current state without resetting the mounted instance stack.\n            // Don’t use it for anything other than testing.\n\n            /**\n             * @param {Object} base: {\"target\": \"_blank\", \"href\": \"http://mysite.com/\"}\n             * @param {Object} bodyAttributes: {\"className\": \"root\"}\n             * @param {String} defaultTitle: \"Default Title\"\n             * @param {Boolean} defer: true\n             * @param {Boolean} encodeSpecialCharacters: true\n             * @param {Object} htmlAttributes: {\"lang\": \"en\", \"amp\": undefined}\n             * @param {Array} link: [{\"rel\": \"canonical\", \"href\": \"http://mysite.com/example\"}]\n             * @param {Array} meta: [{\"name\": \"description\", \"content\": \"Test description\"}]\n             * @param {Array} noscript: [{\"innerHTML\": \"<img src='http://mysite.com/js/test.js'\"}]\n             * @param {Function} onChangeClientState: \"(newState) => console.log(newState)\"\n             * @param {Array} script: [{\"type\": \"text/javascript\", \"src\": \"http://mysite.com/js/test.js\"}]\n             * @param {Array} style: [{\"type\": \"text/css\", \"cssText\": \"div { display: block; color: blue; }\"}]\n             * @param {String} title: \"Title\"\n             * @param {Object} titleAttributes: {\"itemprop\": \"name\"}\n             * @param {String} titleTemplate: \"MySite.com - %s\"\n             */\n            set: function set(canUseDOM) {\n                Component.canUseDOM = canUseDOM;\n            }\n        }]);\n\n        return HelmetWrapper;\n    }(_react2.default.Component), _class.propTypes = {\n        base: _propTypes2.default.object,\n        bodyAttributes: _propTypes2.default.object,\n        children: _propTypes2.default.oneOfType([_propTypes2.default.arrayOf(_propTypes2.default.node), _propTypes2.default.node]),\n        defaultTitle: _propTypes2.default.string,\n        defer: _propTypes2.default.bool,\n        encodeSpecialCharacters: _propTypes2.default.bool,\n        htmlAttributes: _propTypes2.default.object,\n        link: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        meta: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        noscript: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        onChangeClientState: _propTypes2.default.func,\n        script: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        style: _propTypes2.default.arrayOf(_propTypes2.default.object),\n        title: _propTypes2.default.string,\n        titleAttributes: _propTypes2.default.object,\n        titleTemplate: _propTypes2.default.string\n    }, _class.defaultProps = {\n        defer: true,\n        encodeSpecialCharacters: true\n    }, _class.peek = Component.peek, _class.rewind = function () {\n        var mappedState = Component.rewind();\n        if (!mappedState) {\n            // provide fallback if mappedState is undefined\n            mappedState = (0, _HelmetUtils.mapStateOnServer)({\n                baseTag: [],\n                bodyAttributes: {},\n                encodeSpecialCharacters: true,\n                htmlAttributes: {},\n                linkTags: [],\n                metaTags: [],\n                noscriptTags: [],\n                scriptTags: [],\n                styleTags: [],\n                title: \"\",\n                titleAttributes: {}\n            });\n        }\n\n        return mappedState;\n    }, _temp;\n};\n\nvar NullComponent = function NullComponent() {\n    return null;\n};\n\nvar HelmetSideEffects = (0, _reactSideEffect2.default)(_HelmetUtils.reducePropsToState, _HelmetUtils.handleClientStateChange, _HelmetUtils.mapStateOnServer)(NullComponent);\n\nvar HelmetExport = Helmet(HelmetSideEffects);\nHelmetExport.renderStatic = HelmetExport.rewind;\n\nexports.Helmet = HelmetExport;\nexports.default = HelmetExport;"
-    },
-    {
       "id": 32,
       "identifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\HelmetConstants.js",
       "name": "./node_modules/react-helmet/lib/HelmetConstants.js",
@@ -9830,14 +9848,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-      "issuerId": 31,
+      "issuerId": 22,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 31,
+          "moduleId": 22,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
           "module": "./node_modules/react-helmet/lib/Helmet.js",
           "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -10431,7 +10449,7 @@
       "name": "./src/containers/About.js",
       "index": 126,
       "index2": 123,
-      "size": 615,
+      "size": 1697,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -10470,7 +10488,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = function () {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h1',\n      null,\n      'This is what we\\'re all about.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'React, static sites, performance, speed. It\\'s the stuff that makes us tick.'\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactHelmet = require('react-helmet');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = function () {\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      _reactHelmet.Helmet,\n      null,\n      _react2.default.createElement('meta', { property: 'fb:app_id', content: '277341966096239' }),\n      _react2.default.createElement('html', { prefix: 'og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# game: http://ogp.me/ns/game#' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'game.achievement' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: 'Free Spins!' }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'I just won Free Spins! Come join the adventure in LuckyLand Slots, where you can win real cash prizes!' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: 'https://play.luckylandslots.com/loader/facebook/assets/freespins.png' }),\n      _react2.default.createElement('meta', { property: 'og:image:width', content: '480' }),\n      _react2.default.createElement('meta', { property: 'og:image:height', content: '248' })\n    ),\n    _react2.default.createElement(\n      'h1',\n      null,\n      'This is what we\\'re all about.'\n    ),\n    _react2.default.createElement(\n      'p',\n      null,\n      'React, static sites, performance, speed. It\\'s the stuff that makes us tick.'\n    )\n  );\n};"
     },
     {
       "id": 46,
@@ -11213,14 +11231,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
-      "issuerId": 29,
+      "issuerId": 30,
       "issuerName": "./node_modules/path-to-regexp/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 29,
+          "moduleId": 30,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\path-to-regexp\\index.js",
           "module": "./node_modules/path-to-regexp/index.js",
           "moduleName": "./node_modules/path-to-regexp/index.js",
@@ -11795,14 +11813,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-      "issuerId": 31,
+      "issuerId": 22,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 31,
+          "moduleId": 22,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
           "module": "./node_modules/react-helmet/lib/Helmet.js",
           "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -11909,14 +11927,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-      "issuerId": 31,
+      "issuerId": 22,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 31,
+          "moduleId": 22,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
           "module": "./node_modules/react-helmet/lib/Helmet.js",
           "moduleName": "./node_modules/react-helmet/lib/Helmet.js",
@@ -11947,14 +11965,14 @@
       ],
       "assets": [],
       "issuer": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
-      "issuerId": 31,
+      "issuerId": 22,
       "issuerName": "./node_modules/react-helmet/lib/Helmet.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 31,
+          "moduleId": 22,
           "moduleIdentifier": "E:\\git\\react-static-test\\node_modules\\react-helmet\\lib\\Helmet.js",
           "module": "./node_modules/react-helmet/lib/Helmet.js",
           "moduleName": "./node_modules/react-helmet/lib/Helmet.js",

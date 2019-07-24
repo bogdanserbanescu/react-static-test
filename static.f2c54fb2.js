@@ -288,14 +288,26 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _reactHelmet = __webpack_require__(24);
 
-//
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = function () {
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(
+      _reactHelmet.Helmet,
+      null,
+      _react2.default.createElement('meta', { property: 'fb:app_id', content: '277341966096239' }),
+      _react2.default.createElement('html', { prefix: 'og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# game: http://ogp.me/ns/game#' }),
+      _react2.default.createElement('meta', { property: 'og:type', content: 'game.achievement' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: 'Free Spins!' }),
+      _react2.default.createElement('meta', { property: 'og:description', content: 'I just won Free Spins! Come join the adventure in LuckyLand Slots, where you can win real cash prizes!' }),
+      _react2.default.createElement('meta', { property: 'og:image', content: 'https://play.luckylandslots.com/loader/facebook/assets/freespins.png' }),
+      _react2.default.createElement('meta', { property: 'og:image:width', content: '480' }),
+      _react2.default.createElement('meta', { property: 'og:image:height', content: '248' })
+    ),
     _react2.default.createElement(
       'h1',
       null,
@@ -509,7 +521,7 @@ var _reactStaticRoutes = __webpack_require__(14);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(24);
+__webpack_require__(25);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1431,9 +1443,15 @@ module.exports = __webpack_require__.p + "static/logo.9ff8fc2e.png";
 
 /***/ }),
 /* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-helmet");
+
+/***/ }),
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(25)(false);
+exports = module.exports = __webpack_require__(26)(false);
 // imports
 
 
@@ -1444,7 +1462,7 @@ exports.push([module.i, "body{font-family:HelveticaNeue-Light,Helvetica Neue Lig
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 /*
@@ -1528,4 +1546,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.aa21571e.js.map
+//# sourceMappingURL=static.f2c54fb2.js.map
