@@ -1,21 +1,5 @@
-# React-Static - TypeScript Template
+# React-Static Github Pages Example
 
-To use this template, run `react-static create` and use the `typescript` template.
+This repository shows an example of a basic [react-static](https://github.com/nozzle/react-static) boilerplate application deployed to [Github pages](https://pages.github.com/).
 
-## Path Aliases for Absolute Imports
-
-`react-static-typescript-plugin` supports path aliases [since v3.1](https://github.com/nozzle/react-static/pull/963#issuecomment-455596728). It has been set up in this template.
-
-```js
-// tsconfig.json
-{
-  // ...
-    "paths": {
-      "@components/*": ["src/components/*"]
-    },
-  // ...
-}
-
-// this works in your React app
-import FancyDiv from '@components/FancyDiv'
-```
+The site is available at: [https://ninaolo.github.io/react-static-github-pages-example](https://ninaolo.github.io/react-static-github-pages-example).

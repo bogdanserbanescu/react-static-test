@@ -1,40 +1,40 @@
 import axios from 'axios'
-import path from 'path'
-// import { Post } from './types'
-
-// Typescript support in static.config.js is not yet supported, but is coming in a future update!
 
 export default {
-  entry: path.join(__dirname, 'src', 'index.tsx'),
+  siteRoot: "https://bogdanserbanescu.github.io",
+  basePath: "react-static-test",
+  getSiteData: () => ({
+    title: 'React Static + Github Pages Example',
+  }),
   getRoutes: async () => {
-    const { data: posts } /* :{ data: Post[] } */ = await axios.get(
-      'https://jsonplaceholder.typicode.com/posts'
-    )
+    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
     return [
       {
+        path: '/',
+        component: 'src/containers/Home',
+      },
+      {
+        path: '/about',
+        component: 'src/containers/About',
+      },
+      {
         path: '/blog',
+        component: 'src/containers/Blog',
         getData: () => ({
           posts,
         }),
-        children: posts.map((post /* : Post */) => ({
+        children: posts.map(post => ({
           path: `/post/${post.id}`,
-          template: 'src/containers/Post',
+          component: 'src/containers/Post',
           getData: () => ({
             post,
           }),
         })),
       },
+      {
+        is404: true,
+        component: 'src/containers/404',
+      },
     ]
   },
-  plugins: [
-    'react-static-plugin-typescript',
-    [
-      require.resolve('react-static-plugin-source-filesystem'),
-      {
-        location: path.resolve('./src/pages'),
-      },
-    ],
-    require.resolve('react-static-plugin-reach-router'),
-    require.resolve('react-static-plugin-sitemap'),
-  ],
 }
